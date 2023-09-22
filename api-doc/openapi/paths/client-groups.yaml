@@ -1,0 +1,100 @@
+get:
+  tags:
+    - Client Groups
+  summary: Return all client groups
+  operationId: ClientgroupsGet
+  description: Return a list of all existing client groups sorted by ID in asc order
+  parameters:
+    - name: sort
+      in: query
+      description: >-
+        Sort option `-<field>`(desc) or `<field>`(asc). `<field>` can be one of
+        `'id', 'description'`.
+      schema:
+        type: string
+    - name: filter
+      in: query
+      description: >-
+        Filter option `filter[<FIELD>]=<VALUE>`. `<FIELD>` can be one of `'id', 'description'`.
+      schema:
+        type: string
+    - name: fields[<RESOURCE>]
+      in: query
+      description: >-
+        Fields to be returned. It should be provided in the format as
+        `fields[<RESOURCE>]=<FIELDS>`, where `<RESOURCE>` is `client_groups` and
+        `<FIELDS>` is a comma separated list of fields. Example:
+        `fields[client_groups]=id,description`. If no fields are specified, only id and
+        description will be returned.
+        Supported fields: `id`, `description`, `num_clients`, `num_clients_connected`
+      schema:
+        type: string
+    - name: page
+      in: query
+      description: >-
+        Pagination options `page[limit]` and `page[offset]` can be used to get
+        more than the first page of results. Default limit is 50 and maximum is
+        500. The `count` property in meta shows the total number of results.
+      schema:
+        type: integer
+  responses:
+    '200':
+      description: Successful Operation
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              data:
+                type: array
+                items:
+                  $ref: ../components/schemas/ClientGroup.yaml
+              meta:
+                type: object
+                properties:
+                  count:
+                    type: integer
+    '400':
+      description: Invalid request parameters
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/ErrorPayload.yaml
+    '500':
+      description: Invalid Operation
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/ErrorPayload.yaml
+post:
+  tags:
+    - Client Groups
+  summary: Create a new client group. Require admin access
+  operationId: ClientgroupsPost
+  description: Create a new client group.
+  requestBody:
+    description: >-
+      Client group to create. Note: ClientGroup.client_ids field should not be set.
+      It's read-only.
+    content:
+      '*/*':
+        schema:
+          $ref: ../components/schemas/ClientGroup.yaml
+    required: true
+  responses:
+    '201':
+      description: Successful Operation
+      content: {}
+    '400':
+      description: Invalid request parameters
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/ErrorPayload.yaml
+    '500':
+      description: Invalid Operation
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/ErrorPayload.yaml
+  x-codegen-request-body-name: client group

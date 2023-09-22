@@ -1,0 +1,147 @@
+---
+title: "Run RPortd API with HTTPS"
+weight: 08
+slug: securing-rportd-with-https
+aliases:
+  - /docs/no08-https-howto.html
+  - /docs/get-started/no08-https-howto.md
+---
+{{< toc >}}
+
+## Enable encryption
+
+Rportd supports HTTPS without the need for a reverse proxy.
+{{< hint type=caution title="Always use encryption">}}
+Even on your local intranet. Do not run the API with unencrypted plain HTTP. Sniffing HTTP traffic is trivial.
+Your credentials might get into wrong hands easily.
+{{< /hint >}}
+
+Open the `rportd.conf` file and enter the path to a certificate or certificate chain and a server key. The key must not be password protected.
+
+```text
+[api]
+  ## Defines the IP address and port the API server listens on
+  ## specify non-empty {address} to enable API support
+  address = "0.0.0.0:3000"
+  ## ..snip ...snap
+  ## If both cert_file and key_file are specified, then rportd will use them to serve the API with https.
+  ## Intermediate certificates should be included in cert_file if required.
+  #cert_file = "/var/lib/rport/server.crt"
+  #key_file = "/var/lib/rport/server.key"
+```
+
+If a `cert_file` and a `key_file` are specified, the protocol automatically switches from HTTP to HTTPs.
+
+If the IP address of your server has a public domain name you can generate a free certificate quite easily using Let's encrypt.
+
+## Use the built-in ACME
+
+Starting with version 0.9.11 the rport server comes with a built-in automatic certificate management environment (ACME).
+This ACME can create and renew all certificates needed for a secure operation of the rport server.
+
+To enable the ACME for the rport API look for the following setting in the `rport.conf`:
+
+```text
+[api]
+  ## Defines the IP address and port the API server listens on.
+  ## Specify non-empty {address} to enable API support.
+  address = "0.0.0.0:443"
+
+  ## Optionally define the base URL used to access the rport API and UI.
+  ## This is how you access the API from the outside.
+  ## The hostname of the URL must have a publicly available DNS record.
+  base_url = "https://<YOUR-HOSTNAME>:443"
+
+  ## The built-in ACME can be used to generate and manage Let's encrypt certificates. 
+  ## The base_url above must be set.
+  enable_acme = true
+```
+
+Using a hostname inside the `base_url` is mandatory. This hostname must be registered on a public DNS before starting
+the rport server.
+
+The above settings will enable the rport server to create and renew the certificates without stopping and restarting
+the server.
+
+{{< hint type=warning title="API not on port 443" >}}
+If your API is not listening on the default HTTPS port 443, you need to activate `acme_http_port = 80` in the `[server]`
+section. While the configuration values might indicate you can use any port for the validation, you can't.
+You must use port 80.
+{{< /hint >}}
+
+You can run `acme_http_port` on any port, but you would have to map it to the public facing port 80 on your firewall or
+reverse proxy.
+
+Let's encrypt needs to validate your certificate request. Validation will happen over port 80 or 443. Other ports are
+not supported. That means, if you can't expose any of these two ports to the internet, you cannot use the built-in ACME
+nor `certbot` from the commandline. You will have to use self-signed or commercial certificates.
+
+If you are using the **built-in reverse proxy for NoVNC, Guacamole and other HTTP-based tunnels**, the built-in ACME can
+also handle the needed certificates. Set `tunnel_enable_acme = true` and set `tunnel_host` to an existing publicly
+available DNS record in the `[server]` section of `rportd.conf`. The certificate will be requested for the hostname
+taken from `tunnel_host`.
+
+All certificates managed by the built-in ACME are stored in `{data_dir}/acme` which usually resolves to
+`/var/lib/rport/acme`.
+
+If you are experiencing trouble using the built-in ACME, run the server with `log_level = "debug"` to get detailed
+information.
+
+## Create and manage certificates manually
+
+### Create certificates using certbot
+
+Make sure no other software is using the TCP port 80 during the certificate generation and your firewall is not blocking
+access to TCP 80. If you run RPort on port 80, stop it while generating the certificates.
+
+```shell
+DOMAIN=<YOUR_DOMAIN>
+apt install certbot
+certbot certonly -d $DOMAIN -n --agree-tos --standalone -m <YOUR_EMAIL>
+# Change group ownerships so rport can read the files
+chgrp rport /etc/letsencrypt/archive/
+chmod g+rx /etc/letsencrypt/archive/
+chgrp rport /etc/letsencrypt/live/
+chmod g+rx /etc/letsencrypt/live/
+chgrp rport /etc/letsencrypt/archive/$DOMAIN/
+chmod g+rx /etc/letsencrypt/archive/$DOMAIN/
+chgrp rport /etc/letsencrypt/archive/$DOMAIN/privkey1.pem
+chmod g+rx /etc/letsencrypt/archive/$DOMAIN/privkey1.pem
+chgrp rport /etc/letsencrypt/live/$DOMAIN/
+ls -l /etc/letsencrypt/live/$DOMAIN/
+```
+
+This will create the server key, certificates, and chains in `/etc/letsencrypt/live/$DOMAIN/`.
+Note that the files and folders generated by certbot are readable only by root. So change your ownerships accordingly.
+
+### Use the certificates
+
+Now set up your `rportd.conf` like this.
+
+```text
+[api]
+  ## Defines the IP address and port the API server listens on
+  ## specify non-empty {address} to enable API support
+  address = "0.0.0.0:3000"
+  ## ..snip ...snap
+  ## If both cert_file and key_file are specified, then rportd will use them to serve the API with https.
+  ## Intermediate certificates should be included in cert_file if required.
+  cert_file = "/etc/letsencrypt/live/<YOUR_DOMAIN>/fullchain.pem"
+  key_file = "/etc/letsencrypt/live/<YOUR_DOMAIN>/privkey.pem"
+```
+
+Restart rportd after any changes to the configuration file. Check your SSL setup is working properly by executing  
+`curl -Iv -u admin:foobaz https://$DOMAIN:3000/api/v1/status`.  
+You should not get any errors.
+
+### Auto renewal
+
+On Ubuntu a systemd timer to renew the certificates is created on the installation of the certbot package.
+For details look at `/lib/systemd/system/certbot.timer`. On other distribution you might set up a
+cron manually that executes `certbot -q renew` every 12 hours.
+
+{{< hint type=Important title="Hooks are missing">}}
+**Without proper hook scripts, the renewal will fail.**  
+Follow [this guide](https://kb.rport.io/digging-deeper/server-maintenance/renewing-certificates) to properly set up the
+needed Let's encrypt hooks.
+{{< /hint >}}

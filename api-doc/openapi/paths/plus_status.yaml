@@ -1,0 +1,30 @@
+get:
+  tags:
+    - Plus
+  summary: Get status information for the Rport Plus plug-in
+  operationId: PlusStatusGet
+  security: []
+  description: >
+    This API allows client to query plug-in status information.
+  responses:
+    "200":
+      description: Success
+      content:
+        application/json:
+          schema:
+            type: object
+            properties:
+              data:
+                $ref: ../components/schemas/PlusStatusResponse.yaml
+    "500":
+      description: Server error during processing
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/ErrorPayload.yaml
+    '400':
+      description: Invalid request parameters
+      content:
+        application/json:
+          schema:
+            $ref: ../components/schemas/ErrorPayload.yaml

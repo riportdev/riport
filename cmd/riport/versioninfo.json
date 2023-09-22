@@ -1,0 +1,31 @@
+{
+  "FixedFileInfo": {
+    "FileFlagsMask": "3f",
+    "FileFlags ": "00",
+    "FileOS": "040004",
+    "FileType": "01",
+    "FileSubType": "00"
+  },
+  "StringFileInfo": {
+    "Comments": "RPort client",
+    "CompanyName": "RealVNC Ltd",
+    "FileDescription": "riport windows client",
+    "FileVersion": "0.9.1",
+    "InternalName": "riport.exe",
+    "LegalCopyright": "Copyright (c) 2022 RealVNC Ltd",
+    "LegalTrademarks": "",
+    "OriginalFilename": "main.go",
+    "PrivateBuild": "",
+    "ProductName": "riport",
+    "ProductVersion": "0.9.1",
+    "SpecialBuild": ""
+  },
+  "VarFileInfo": {
+    "Translation": {
+      "LangID": "0409",
+      "CharsetID": "04B0"
+    }
+  },
+  "IconPath": "",
+  "ManifestPath": ""
+}

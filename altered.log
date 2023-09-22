@@ -1,0 +1,1345 @@
+./share/myip/myip.go:12:	"github.com/realvnc-labs/rport/share/models"
+./share/version.go:3:// ProtocolVersion of rport. When backwards
+./share/version.go:7:const ProtocolVersion = "rport-v1"
+./share/capabilities/provider.go:4:	"github.com/realvnc-labs/rport/server/chconfig"
+./share/capabilities/provider.go:5:	chshare "github.com/realvnc-labs/rport/share"
+./share/capabilities/provider.go:6:	"github.com/realvnc-labs/rport/share/models"
+./share/viper_decode.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./share/ptr/ptr.go:6:	"github.com/realvnc-labs/rport/share/types"
+./share/http_server.go:11:	"github.com/realvnc-labs/rport/share/logger"
+./share/query/convert_test.go:8:	"github.com/realvnc-labs/rport/share/query"
+./share/query/sort.go:9:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./share/query/matches_filter_test.go:10:	"github.com/realvnc-labs/rport/share/query"
+./share/query/filter_test.go:10:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./share/query/pagination_test.go:8:	"github.com/realvnc-labs/rport/share/query"
+./share/query/filter.go:11:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./share/query/http_list.go:7:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./share/query/http_retrieve.go:6:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./share/query/fields.go:10:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./share/query/pagination.go:9:	"github.com/realvnc-labs/rport/server/api/errors"
+./share/query/pagination.go:10:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./share/clientconfig/client_config.go:9:	"github.com/realvnc-labs/rport/share/logger"
+./share/clientconfig/client_config.go:10:	"github.com/realvnc-labs/rport/share/models"
+./share/backwardskey/ecdsa_test.go:30:	"github.com/realvnc-labs/rport/share/backwardskey"
+./share/ws/websocket.go:8:	"github.com/realvnc-labs/rport/server/api"
+./share/ws/websocket.go:9:	"github.com/realvnc-labs/rport/share/logger"
+./share/ws/websocket_test.go:11:	"github.com/realvnc-labs/rport/share/logger"
+./share/ws/websocket_test.go:12:	"github.com/realvnc-labs/rport/share/ws"
+./share/ssh.go:19:	"github.com/realvnc-labs/rport/share/backwardskey"
+./share/ssh.go:20:	"github.com/realvnc-labs/rport/share/logger"
+./share/comm/ssh.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./share/comm/ssh_test.go:12:	"github.com/realvnc-labs/rport/share/comm"
+./share/comm/ssh_test.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./share/comm/ping.go:9:	"github.com/realvnc-labs/rport/share/logger"
+./share/models/remote.go:46:	RemotePort         string        `json:"rport"`
+./share/models/files_test.go:10:	"github.com/realvnc-labs/rport/share/logger"
+./share/models/files.go:12:	"github.com/realvnc-labs/rport/share/logger"
+./share/models/remote_test.go:188:			tunnelURL:          "https://1234.tunnel.rport.test",
+./share/models/remote_test.go:190:			expectedBasedomain: "tunnel.rport.test",
+./share/protocol.go:7:	"github.com/realvnc-labs/rport/share/clientconfig"
+./share/protocol.go:8:	"github.com/realvnc-labs/rport/share/models"
+./share/ssh_test.go:16:	chshare "github.com/realvnc-labs/rport/share"
+./share/security/middleware.go:8:	chshare "github.com/realvnc-labs/rport/share"
+./share/security/banlist.go:7:	"github.com/realvnc-labs/rport/share/logger"
+./plus/capabilities/alerting/alertingcap.go:6:	"github.com/realvnc-labs/rport/plus/validator"
+./plus/capabilities/alerting/alertingcap.go:7:	"github.com/realvnc-labs/rport/share/logger"
+./plus/capabilities/alerting/transformers/measurements_test.go:9:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/measures"
+./plus/capabilities/alerting/transformers/measurements.go:9:	"github.com/realvnc-labs/rport/share/models"
+./plus/capabilities/alerting/transformers/measurements.go:11:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/measures"
+./plus/capabilities/alerting/transformers/clients.go:4:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/clientupdates"
+./plus/capabilities/alerting/transformers/clients.go:5:	rportclients "github.com/realvnc-labs/rport/server/clients/clientdata"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:11:	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:12:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/clientupdates"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:13:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/measures"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:14:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rules"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:15:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rundata"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:16:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/templates"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:17:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/validations"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:18:	"github.com/realvnc-labs/rport/plus/capabilities/status"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:19:	"github.com/realvnc-labs/rport/plus/validator"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:20:	"github.com/realvnc-labs/rport/server/notifications"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:21:	"github.com/realvnc-labs/rport/share/logger"
+./plus/capabilities/alerting/alertingmock/alertingmock.go:22:	"github.com/realvnc-labs/rport/share/types"
+./plus/capabilities/alerting/alerting.go:10:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/clientupdates"
+./plus/capabilities/alerting/alerting.go:11:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/measures"
+./plus/capabilities/alerting/alerting.go:12:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rules"
+./plus/capabilities/alerting/alerting.go:13:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rundata"
+./plus/capabilities/alerting/alerting.go:14:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/templates"
+./plus/capabilities/alerting/alerting.go:15:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/validations"
+./plus/capabilities/alerting/alerting.go:16:	"github.com/realvnc-labs/rport/server/notifications"
+./plus/capabilities/alerting/alerting.go:17:	"github.com/realvnc-labs/rport/share/logger"
+./plus/capabilities/alerting/entities/measures/measures.go:6:	"github.com/realvnc-labs/rport/share/models"
+./plus/capabilities/alerting/entities/measures/measures_test.go:8:	"github.com/realvnc-labs/rport/share/models"
+./plus/capabilities/alerting/entities/clientupdates/clientupdates.go:6:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/measures"
+./plus/capabilities/alerting/entities/clientupdates/clientupdates_test.go:8:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/measures"
+./plus/capabilities/alerting/entities/rules/problems.go:6:	"github.com/realvnc-labs/rport/share/types"
+./plus/capabilities/alerting/entities/rules/rules.go:6:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/actions"
+./plus/capabilities/alerting/entities/rules/rules.go:7:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/severity"
+./plus/capabilities/alerting/entities/rules/rules.go:8:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/templates"
+./plus/capabilities/alerting/entities/rundata/rundata.go:4:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/clientupdates"
+./plus/capabilities/alerting/entities/rundata/rundata.go:5:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/measures"
+./plus/capabilities/alerting/entities/rundata/rundata.go:6:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rules"
+./plus/capabilities/alerting/entities/rundata/rundata.go:7:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/templates"
+./plus/capabilities/alerting/entities/rundata/rundata.go:8:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/validations"
+./plus/capabilities/alerting/entities/rundata/rundata.go:9:	"github.com/realvnc-labs/rport/server/notifications"
+./plus/capabilities/alerting/entities/rundata/rundata.go:10:	"github.com/realvnc-labs/rport/share/refs"
+./plus/capabilities/license/licensemock/licensemock.go:6:	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
+./plus/capabilities/license/licensemock/licensemock.go:7:	"github.com/realvnc-labs/rport/plus/validator"
+./plus/capabilities/license/licensemock/licensemock.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./plus/capabilities/license/license.go:6:	"github.com/realvnc-labs/rport/plus/validator"
+./plus/capabilities/license/license.go:7:	"github.com/realvnc-labs/rport/share/logger"
+./plus/capabilities/status/status.go:6:	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
+./plus/capabilities/status/status.go:7:	"github.com/realvnc-labs/rport/plus/validator"
+./plus/capabilities/status/status.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./plus/capabilities/status/statusmock/statusmock.go:6:	"github.com/realvnc-labs/rport/plus/capabilities/status"
+./plus/capabilities/status/statusmock/statusmock.go:7:	"github.com/realvnc-labs/rport/plus/validator"
+./plus/capabilities/status/statusmock/statusmock.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./plus/capabilities/oauth/oauthmock/oauthmock.go:9:	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
+./plus/capabilities/oauth/oauthmock/oauthmock.go:10:	"github.com/realvnc-labs/rport/plus/validator"
+./plus/capabilities/oauth/oauthmock/oauthmock.go:11:	"github.com/realvnc-labs/rport/share/logger"
+./plus/capabilities/oauth/oauthcap.go:6:	"github.com/realvnc-labs/rport/plus/validator"
+./plus/capabilities/oauth/oauthcap.go:7:	"github.com/realvnc-labs/rport/share/logger"
+./plus/capabilities/extendedpermission/extendedpermission.go:14:	"github.com/realvnc-labs/rport/plus/validator"
+./plus/capabilities/extendedpermission/extendedpermission.go:15:	"github.com/realvnc-labs/rport/share/logger"
+./plus/config.go:4:	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
+./plus/config.go:5:	"github.com/realvnc-labs/rport/plus/license"
+./plus/config.go:13:// PlusConfig contains the overall config for the rport-plus plugin. note that
+./plus/manager_test.go:11:	rportplus "github.com/realvnc-labs/rport/plus"
+./plus/manager_test.go:12:	"github.com/realvnc-labs/rport/plus/license"
+./plus/manager_test.go:13:	"github.com/realvnc-labs/rport/server/chconfig"
+./plus/manager_test.go:14:	"github.com/realvnc-labs/rport/share/files"
+./plus/manager_test.go:15:	"github.com/realvnc-labs/rport/share/logger"
+./plus/manager_test.go:45:	plusLog := logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./plus/manager_test.go:73:	plusLog := logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./plus/manager.go:10:	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
+./plus/manager.go:11:	"github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
+./plus/manager.go:12:	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
+./plus/manager.go:13:	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
+./plus/manager.go:14:	"github.com/realvnc-labs/rport/plus/capabilities/status"
+./plus/manager.go:15:	"github.com/realvnc-labs/rport/plus/license"
+./plus/manager.go:16:	"github.com/realvnc-labs/rport/plus/loader"
+./plus/manager.go:17:	"github.com/realvnc-labs/rport/plus/validator"
+./plus/manager.go:18:	"github.com/realvnc-labs/rport/share/files"
+./plus/manager.go:19:	"github.com/realvnc-labs/rport/share/logger"
+./plus/manager.go:31:	ErrPlusNotAvailable       = errors.New("rport-plus not enabled/available")
+./plus/manager.go:32:	ErrCapabilityNotAvailable = func(capName string) error { return fmt.Errorf("rport-plus capability (%s) not available", capName) }
+./db/sqlite/sqlite_test.go:11:	"github.com/realvnc-labs/rport/db/migration/dummy"
+./db/sqlite/sqlite_test.go:12:	"github.com/realvnc-labs/rport/share/logger"
+./db/sqlite/sqlite.go:15:	"github.com/realvnc-labs/rport/share/logger"
+./client/system/script_win.go:9:	chshare "github.com/realvnc-labs/rport/share"
+./client/system/exec_nix.go:11:	chshare "github.com/realvnc-labs/rport/share"
+./client/system/encoding.go:10:	chshare "github.com/realvnc-labs/rport/share"
+./client/system/encoding.go:11:	"github.com/realvnc-labs/rport/share/clientconfig"
+./client/system/encoding_test.go:12:	chshare "github.com/realvnc-labs/rport/share"
+./client/system/interpreter_nix.go:6:import chshare "github.com/realvnc-labs/rport/share"
+./client/system/script.go:13:	chshare "github.com/realvnc-labs/rport/share"
+./client/system/script.go:14:	"github.com/realvnc-labs/rport/share/random"
+./client/system/exec_test.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./client/system/user.go:8:	chshare "github.com/realvnc-labs/rport/share"
+./client/system/exec_nix_test.go:7:	chshare "github.com/realvnc-labs/rport/share"
+./client/system/exec_win_test.go:7:	chshare "github.com/realvnc-labs/rport/share"
+./client/system/exec.go:7:	"github.com/realvnc-labs/rport/share/logger"
+./client/system/interpreter_win.go:11:	chshare "github.com/realvnc-labs/rport/share"
+./client/system/exec_win.go:13:	chshare "github.com/realvnc-labs/rport/share"
+./client/upload_test.go:13:	"github.com/realvnc-labs/rport/share/errors"
+./client/upload_test.go:14:	"github.com/realvnc-labs/rport/share/files"
+./client/upload_test.go:15:	"github.com/realvnc-labs/rport/share/logger"
+./client/upload_test.go:16:	"github.com/realvnc-labs/rport/share/models"
+./client/upload_test.go:17:	"github.com/realvnc-labs/rport/share/test"
+./client/command_test.go:22:	"github.com/realvnc-labs/rport/client/system"
+./client/command_test.go:23:	"github.com/realvnc-labs/rport/share/clientconfig"
+./client/command_test.go:24:	"github.com/realvnc-labs/rport/share/comm"
+./client/command_test.go:25:	"github.com/realvnc-labs/rport/share/logger"
+./client/command_test.go:26:	"github.com/realvnc-labs/rport/share/models"
+./client/command_test.go:27:	"github.com/realvnc-labs/rport/share/test"
+./client/config.go:15:	"github.com/realvnc-labs/rport/share/files"
+./client/config.go:17:	"github.com/realvnc-labs/rport/client/system"
+./client/config.go:18:	chshare "github.com/realvnc-labs/rport/share"
+./client/config.go:19:	"github.com/realvnc-labs/rport/share/clientconfig"
+./client/config.go:20:	"github.com/realvnc-labs/rport/share/logger"
+./client/config.go:21:	"github.com/realvnc-labs/rport/share/models"
+./client/config.go:152:		c.Connection.HTTPHeaders.Set("User-Agent", fmt.Sprintf("rport %s", chshare.BuildVersion))
+./client/config_nix.go:6:const DefaultDataDir = "/var/lib/rport"
+./client/connection_error_hints.go:10:	"github.com/realvnc-labs/rport/share/logger"
+./client/connection_error_hints.go:16:		return fmt.Errorf("%s - Check your proxy allows the CONNECT method to the rport server port", err)
+./client/connection_error_hints.go:18:		return fmt.Errorf("%s - Check the proxy username and password in rport.conf or add if missing", err)
+./client/udp_test.go:15:	"github.com/realvnc-labs/rport/share/comm"
+./client/udp_test.go:16:	"github.com/realvnc-labs/rport/share/logger"
+./client/udp_test.go:17:	"github.com/realvnc-labs/rport/share/test"
+./client/ip_addresses/ipAddresses.go:11:	"github.com/realvnc-labs/rport/share/comm"
+./client/ip_addresses/ipAddresses.go:12:	"github.com/realvnc-labs/rport/share/logger"
+./client/ip_addresses/ipAddresses.go:13:	"github.com/realvnc-labs/rport/share/models"
+./client/ip_addresses/ipAddresses.go:14:	"github.com/realvnc-labs/rport/share/myip"
+./client/config_win.go:6:const DefaultDataDir = "C:\\Program Files\\rport"
+./client/watchdog.go:12:	"github.com/realvnc-labs/rport/share/logger"
+./client/client.go:18:	ipAddresses "github.com/realvnc-labs/rport/client/ip_addresses"
+./client/client.go:20:	"github.com/realvnc-labs/rport/share/random"
+./client/client.go:31:	"github.com/realvnc-labs/rport/client/monitoring"
+./client/client.go:32:	"github.com/realvnc-labs/rport/client/system"
+./client/client.go:33:	"github.com/realvnc-labs/rport/client/updates"
+./client/client.go:34:	chshare "github.com/realvnc-labs/rport/share"
+./client/client.go:35:	"github.com/realvnc-labs/rport/share/comm"
+./client/client.go:36:	"github.com/realvnc-labs/rport/share/files"
+./client/client.go:37:	"github.com/realvnc-labs/rport/share/logger"
+./client/client.go:38:	"github.com/realvnc-labs/rport/share/models"
+./client/upload.go:11:	errors2 "github.com/realvnc-labs/rport/share/errors"
+./client/upload.go:13:	"github.com/realvnc-labs/rport/client/system"
+./client/upload.go:21:	"github.com/realvnc-labs/rport/share/files"
+./client/upload.go:22:	"github.com/realvnc-labs/rport/share/logger"
+./client/upload.go:23:	"github.com/realvnc-labs/rport/share/models"
+./client/monitoring/networking/net_handler_test.go:8:	"github.com/realvnc-labs/rport/share/clientconfig"
+./client/monitoring/networking/net_handler_test.go:9:	"github.com/realvnc-labs/rport/share/models"
+./client/monitoring/networking/net_handler.go:4:	"github.com/realvnc-labs/rport/share/clientconfig"
+./client/monitoring/networking/net_handler.go:5:	"github.com/realvnc-labs/rport/share/models"
+./client/monitoring/monitor.go:11:	"github.com/realvnc-labs/rport/client/monitoring/fs"
+./client/monitoring/monitor.go:12:	"github.com/realvnc-labs/rport/client/monitoring/networking"
+./client/monitoring/monitor.go:13:	"github.com/realvnc-labs/rport/client/monitoring/processes"
+./client/monitoring/monitor.go:14:	"github.com/realvnc-labs/rport/client/system"
+./client/monitoring/monitor.go:15:	"github.com/realvnc-labs/rport/share/clientconfig"
+./client/monitoring/monitor.go:16:	"github.com/realvnc-labs/rport/share/comm"
+./client/monitoring/monitor.go:17:	"github.com/realvnc-labs/rport/share/logger"
+./client/monitoring/monitor.go:18:	"github.com/realvnc-labs/rport/share/models"
+./client/monitoring/processes/processes_nix.go:22:	"github.com/realvnc-labs/rport/client/monitoring/helper"
+./client/monitoring/processes/processes.go:9:	"github.com/realvnc-labs/rport/share/clientconfig"
+./client/monitoring/processes/processes.go:10:	"github.com/realvnc-labs/rport/share/logger"
+./client/monitoring/processes/processes_windows.go:13:	"github.com/realvnc-labs/rport/client/monitoring/helper"
+./client/monitoring/fs/fs_linux.go:11:	"github.com/realvnc-labs/rport/client/monitoring/helper"
+./client/monitoring/fs/watcher.go:11:	"github.com/realvnc-labs/rport/client/monitoring/helper"
+./client/monitoring/fs/watcher.go:12:	"github.com/realvnc-labs/rport/share/logger"
+./client/config_test.go:15:	"github.com/realvnc-labs/rport/share/clientconfig"
+./client/config_test.go:16:	"github.com/realvnc-labs/rport/share/models"
+./client/config_test.go:51:				"User-Agent": []string{"rport 0.0.0-src"},
+./client/config_test.go:60:				"User-Agent": []string{"rport 0.0.0-src"},
+./client/config_test.go:78:				"User-Agent": []string{"rport 0.0.0-src"},
+./client/watchdog_test.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./client/command.go:21:	"github.com/realvnc-labs/rport/client/system"
+./client/command.go:22:	"github.com/realvnc-labs/rport/share/comm"
+./client/command.go:23:	"github.com/realvnc-labs/rport/share/models"
+./client/client_test.go:23:	"github.com/realvnc-labs/rport/client/system"
+./client/client_test.go:24:	chshare "github.com/realvnc-labs/rport/share"
+./client/client_test.go:25:	"github.com/realvnc-labs/rport/share/clientconfig"
+./client/client_test.go:26:	"github.com/realvnc-labs/rport/share/logger"
+./client/client_test.go:27:	"github.com/realvnc-labs/rport/share/models"
+./client/client_test.go:28:	"github.com/realvnc-labs/rport/share/random"
+./client/client_test.go:29:	"github.com/realvnc-labs/rport/share/test"
+./client/updates/zypper_test.go:10:	"github.com/realvnc-labs/rport/share/models"
+./client/updates/windows.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./client/updates/windows.go:15:	"github.com/realvnc-labs/rport/share/models"
+./client/updates/zypper.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./client/updates/zypper.go:9:	"github.com/realvnc-labs/rport/share/models"
+./client/updates/yum_test.go:11:	"github.com/realvnc-labs/rport/share/models"
+./client/updates/updates_test.go:14:	"github.com/realvnc-labs/rport/share/comm"
+./client/updates/updates_test.go:15:	"github.com/realvnc-labs/rport/share/logger"
+./client/updates/updates_test.go:16:	chshare "github.com/realvnc-labs/rport/share/logger"
+./client/updates/updates_test.go:17:	"github.com/realvnc-labs/rport/share/models"
+./client/updates/apt_test.go:12:	"github.com/realvnc-labs/rport/share/models"
+./client/updates/apt.go:11:	"github.com/realvnc-labs/rport/share/logger"
+./client/updates/apt.go:12:	"github.com/realvnc-labs/rport/share/models"
+./client/updates/yum.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./client/updates/yum.go:9:	"github.com/realvnc-labs/rport/share/models"
+./client/updates/updates.go:12:	"github.com/realvnc-labs/rport/share/comm"
+./client/updates/updates.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./client/updates/updates.go:14:	"github.com/realvnc-labs/rport/share/models"
+./client/udp.go:9:	"github.com/realvnc-labs/rport/share/comm"
+./client/udp.go:10:	"github.com/realvnc-labs/rport/share/logger"
+./bdd/client_attributes/filter/e2e_test.go:11:	"github.com/realvnc-labs/rport/bdd/helpers"
+./bdd/client_attributes/update/e2e_test.go:16:	"github.com/realvnc-labs/rport/bdd/helpers"
+./bdd/client_attributes/fail_update/e2e_test.go:14:	"github.com/realvnc-labs/rport/bdd/helpers"
+./bdd/simple_client_connects/e2e_test.go:11:	"github.com/realvnc-labs/rport/bdd/helpers"
+./bdd/helpers/goRunner.go:39:	rc, rcOutChan, rcErrChan := Run(t, "", path.Join(projectRoot, "cmd/rport/main.go"))
+./opt/resource/versioninfo.json:26:    "InternalName": "rport.exe",
+./opt/resource/versioninfo.json:29:    "OriginalFilename": "https://github.com/realvnc-labs/rport/",
+./opt/resource/versioninfo.json:31:    "ProductName": "rport",
+./server/api_listener_test.go:9:	"github.com/realvnc-labs/rport/server/api/users"
+./server/auditlog/rotation_test.go:12:	"github.com/realvnc-labs/rport/db/migration/auditlog"
+./server/auditlog/rotation_test.go:13:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/auditlog/rotation_test.go:14:	"github.com/realvnc-labs/rport/share/query"
+./server/auditlog/auditlog_test.go:7:	"github.com/realvnc-labs/rport/server/api/users"
+./server/auditlog/auditlog_test.go:8:	"github.com/realvnc-labs/rport/server/auditlog/config"
+./server/auditlog/auditlog_test.go:13:	"github.com/realvnc-labs/rport/db/migration/auditlog"
+./server/auditlog/auditlog_test.go:14:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/auditlog/auditlog_test.go:15:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/auditlog/rotation.go:11:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/auditlog/rotation.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./server/auditlog/rotation.go:14:	"github.com/realvnc-labs/rport/share/query"
+./server/auditlog/entry_test.go:12:	"github.com/realvnc-labs/rport/server/api"
+./server/auditlog/entry_test.go:13:	"github.com/realvnc-labs/rport/server/auditlog/config"
+./server/auditlog/entry_test.go:14:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/auditlog/entry_test.go:15:	"github.com/realvnc-labs/rport/share/query"
+./server/auditlog/sqlite_test.go:9:	"github.com/realvnc-labs/rport/db/migration/auditlog"
+./server/auditlog/sqlite_test.go:10:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/auditlog/sqlite_test.go:11:	"github.com/realvnc-labs/rport/share/test"
+./server/auditlog/auditlog.go:11:	"github.com/realvnc-labs/rport/server/api/users"
+./server/auditlog/auditlog.go:12:	"github.com/realvnc-labs/rport/server/auditlog/config"
+./server/auditlog/auditlog.go:14:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/auditlog/auditlog.go:16:	"github.com/realvnc-labs/rport/server/api"
+./server/auditlog/auditlog.go:17:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/auditlog/auditlog.go:18:	"github.com/realvnc-labs/rport/share/logger"
+./server/auditlog/auditlog.go:19:	"github.com/realvnc-labs/rport/share/query"
+./server/auditlog/sqlite.go:10:	"github.com/realvnc-labs/rport/db/migration/auditlog"
+./server/auditlog/sqlite.go:11:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/auditlog/sqlite.go:12:	"github.com/realvnc-labs/rport/share/query"
+./server/auditlog/entry.go:9:	"github.com/realvnc-labs/rport/server/api"
+./server/auditlog/entry.go:10:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/auditlog/entry.go:11:	chshare "github.com/realvnc-labs/rport/share"
+./server/api_handler_status.go:6:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_status.go:7:	chshare "github.com/realvnc-labs/rport/share"
+./server/const_windows.go:8:	DefaultDataDirectory = "C:\\ProgramData\\rport"
+./server/2fa_auth.go:11:	"github.com/realvnc-labs/rport/server/api/users"
+./server/2fa_auth.go:13:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/2fa_auth.go:14:	"github.com/realvnc-labs/rport/server/api/message"
+./server/2fa_auth.go:15:	"github.com/realvnc-labs/rport/share/security"
+./server/api_handler_plus_oauth_test.go:13:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_handler_plus_oauth_test.go:14:	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
+./server/api_handler_plus_oauth_test.go:15:	"github.com/realvnc-labs/rport/plus/capabilities/oauth/oauthmock"
+./server/api_handler_plus_oauth_test.go:16:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_plus_oauth_test.go:17:	"github.com/realvnc-labs/rport/server/api/authorization"
+./server/api_handler_plus_oauth_test.go:18:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_plus_oauth_test.go:19:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_handler_plus_oauth_test.go:20:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_plus_oauth_test.go:21:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_plus_oauth_test.go:22:	"github.com/realvnc-labs/rport/share/security"
+./server/api_handler_plus_oauth_test.go:36:	plusLog := logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./server/api_handler_plus_oauth_test.go:94:	plusLog := logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./server/api_handler_plus_oauth_test.go:135:	plusLog = logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./server/api_handler_plus_oauth_test.go:377:	// note: As the GET to rport was successful and being used in a polling context
+./server/api_handler_plus_oauth_test.go:390:	plusLog := logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./server/notifications/processor_test.go:12:	"github.com/realvnc-labs/rport/server/notifications"
+./server/notifications/processor_test.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/processor_test.go:14:	"github.com/realvnc-labs/rport/share/refs"
+./server/notifications/dispatch.go:6:	"github.com/realvnc-labs/rport/share/refs"
+./server/notifications/api.go:4:	"github.com/realvnc-labs/rport/share/refs"
+./server/notifications/channels/rmailer/consumer.go:10:	"github.com/realvnc-labs/rport/server/notifications"
+./server/notifications/channels/rmailer/consumer.go:11:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/channels/rmailer/received_mail.go:8:	"github.com/realvnc-labs/rport/share/simpleops"
+./server/notifications/channels/rmailer/mail.go:13:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/notifications/channels/rmailer/mail.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/channels/rmailer/consumer_test.go:8:	"github.com/realvnc-labs/rport/server/notifications/channels/rmailer"
+./server/notifications/channels/rmailer/mail_test.go:14:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/notifications/channels/rmailer/mail_test.go:15:	"github.com/realvnc-labs/rport/server/notifications/channels/rmailer"
+./server/notifications/channels/rmailer/mail_test.go:16:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/channels/toLog/logConsumer.go:6:	"github.com/realvnc-labs/rport/server/notifications"
+./server/notifications/channels/toLog/logConsumer.go:7:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/channels/scriptRunner/consumer.go:8:	"github.com/realvnc-labs/rport/server/notifications"
+./server/notifications/channels/scriptRunner/consumer.go:9:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/channels/scriptRunner/runner_test.go:13:	"github.com/realvnc-labs/rport/server/notifications/channels/scriptRunner"
+./server/notifications/repository/sqlite/cleaner.go:7:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/repository/sqlite/cleaner.go:8:	"github.com/realvnc-labs/rport/share/random"
+./server/notifications/repository/sqlite/cleaner_test.go:11:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/notifications/repository/sqlite/cleaner_test.go:12:	db "github.com/realvnc-labs/rport/server/notifications/repository/sqlite"
+./server/notifications/repository/sqlite/cleaner_test.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/repository/sqlite/repository_test.go:11:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/notifications/repository/sqlite/repository_test.go:12:	"github.com/realvnc-labs/rport/server/notifications"
+./server/notifications/repository/sqlite/repository_test.go:13:	repo "github.com/realvnc-labs/rport/server/notifications/repository/sqlite"
+./server/notifications/repository/sqlite/repository_test.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/repository/sqlite/repository_test.go:15:	"github.com/realvnc-labs/rport/share/refs"
+./server/notifications/repository/sqlite/repository.go:13:	"github.com/realvnc-labs/rport/server/notifications"
+./server/notifications/repository/sqlite/repository.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/repository/sqlite/repository.go:15:	"github.com/realvnc-labs/rport/share/query"
+./server/notifications/repository/sqlite/repository.go:16:	"github.com/realvnc-labs/rport/share/refs"
+./server/notifications/dispatch_test.go:9:	"github.com/realvnc-labs/rport/server/notifications"
+./server/notifications/dispatch_test.go:10:	"github.com/realvnc-labs/rport/share/refs"
+./server/notifications/integration_test.go:13:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/notifications/integration_test.go:14:	"github.com/realvnc-labs/rport/server/notifications"
+./server/notifications/integration_test.go:15:	"github.com/realvnc-labs/rport/server/notifications/channels/rmailer"
+./server/notifications/integration_test.go:16:	"github.com/realvnc-labs/rport/server/notifications/channels/scriptRunner"
+./server/notifications/integration_test.go:17:	notificationsrepo "github.com/realvnc-labs/rport/server/notifications/repository/sqlite"
+./server/notifications/integration_test.go:18:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/integration_test.go:19:	"github.com/realvnc-labs/rport/share/simpleops"
+./server/notifications/processor.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./server/notifications/notify.go:6:	"github.com/realvnc-labs/rport/share/refs"
+./server/notifications/mock_store_test.go:7:	"github.com/realvnc-labs/rport/server/notifications"
+./server/2fa_message_test.go:19:	"github.com/realvnc-labs/rport/server/api/message"
+./server/2fa_message_test.go:20:	"github.com/realvnc-labs/rport/server/api/users"
+./server/2fa_message_test.go:53:		"rport@example.com",
+./server/api_handler_client_attributes.go:12:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_client_attributes.go:13:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/api_handler_client_attributes.go:14:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_client_attributes.go:15:	"github.com/realvnc-labs/rport/share/comm"
+./server/api_handler_client_attributes.go:16:	"github.com/realvnc-labs/rport/share/models"
+./server/api/middleware/recovery.go:6:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/context.go:6:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/message/url_test.go:14:	"github.com/realvnc-labs/rport/server/api/message"
+./server/api/message/pushover.go:12:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api/message/script.go:11:	email2 "github.com/realvnc-labs/rport/share/email"
+./server/api/message/smtp.go:12:	email2 "github.com/realvnc-labs/rport/share/email"
+./server/api/message/script_test.go:12:	"github.com/realvnc-labs/rport/server/api/message"
+./server/api/message/url.go:11:	email2 "github.com/realvnc-labs/rport/share/email"
+./server/api/authorization/sqlite_test.go:13:	"github.com/realvnc-labs/rport/db/migration/api_token"
+./server/api/authorization/sqlite_test.go:14:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api/authorization/sqlite_test.go:15:	"github.com/realvnc-labs/rport/share/ptr"
+./server/api/authorization/sqlite_test.go:16:	"github.com/realvnc-labs/rport/share/test"
+./server/api/authorization/manager.go:9:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api/command/manager_test.go:15:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api/command/manager_test.go:16:	"github.com/realvnc-labs/rport/share/query"
+./server/api/command/validate.go:6:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api/command/sqlite_test.go:8:	"github.com/realvnc-labs/rport/db/migration/library"
+./server/api/command/sqlite_test.go:9:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api/command/sqlite_test.go:10:	"github.com/realvnc-labs/rport/share/ptr"
+./server/api/command/sqlite_test.go:11:	"github.com/realvnc-labs/rport/share/query"
+./server/api/command/sqlite_test.go:18:	"github.com/realvnc-labs/rport/share/test"
+./server/api/command/sqlite.go:10:	"github.com/realvnc-labs/rport/share/query"
+./server/api/command/sqlite.go:11:	"github.com/realvnc-labs/rport/share/random"
+./server/api/command/model.go:6:	"github.com/realvnc-labs/rport/share/types"
+./server/api/command/manager.go:10:	"github.com/realvnc-labs/rport/share/query"
+./server/api/command/manager.go:11:	"github.com/realvnc-labs/rport/share/types"
+./server/api/command/manager.go:13:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api/users/database_test.go:8:	extperm "github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
+./server/api/users/database_test.go:9:	chshare "github.com/realvnc-labs/rport/share/logger"
+./server/api/users/database_test.go:11:	"github.com/realvnc-labs/rport/share/test"
+./server/api/users/group.go:4:	extperm "github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
+./server/api/users/file_adapter.go:8:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api/users/file_adapter.go:9:	"github.com/realvnc-labs/rport/share/enums"
+./server/api/users/file_adapter.go:10:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/users/service.go:13:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api/users/service.go:14:	extperm "github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
+./server/api/users/service.go:15:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api/users/service.go:16:	"github.com/realvnc-labs/rport/server/api/message"
+./server/api/users/service.go:17:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api/users/service.go:18:	chshare "github.com/realvnc-labs/rport/share"
+./server/api/users/service.go:19:	"github.com/realvnc-labs/rport/share/enums"
+./server/api/users/service.go:20:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/users/file.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/users/single_user.go:6:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api/users/single_user.go:7:	"github.com/realvnc-labs/rport/share/enums"
+./server/api/users/database.go:10:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api/users/database.go:11:	"github.com/realvnc-labs/rport/share/enums"
+./server/api/users/database.go:12:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/users/database.go:69:		err = fmt.Errorf("%v, if you have 2fa enabled please check additional column requirements at https://oss.rport.io/docs/no02-api-auth.html#database", err)
+./server/api/users/file_test.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/users/service_test.go:12:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api/users/service_test.go:13:	"github.com/realvnc-labs/rport/server/api/message"
+./server/api/users/service_test.go:14:	"github.com/realvnc-labs/rport/share/enums"
+./server/api/users/file_adapter_test.go:10:	chshare "github.com/realvnc-labs/rport/share/logger"
+./server/api/jobs/multijobs_test.go:11:	"github.com/realvnc-labs/rport/db/migration/jobs"
+./server/api/jobs/multijobs_test.go:12:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api/jobs/multijobs_test.go:13:	"github.com/realvnc-labs/rport/server/test/jb"
+./server/api/jobs/multijobs_test.go:14:	"github.com/realvnc-labs/rport/share/models"
+./server/api/jobs/multijobs_test.go:15:	"github.com/realvnc-labs/rport/share/query"
+./server/api/jobs/jobs_test.go:13:	"github.com/realvnc-labs/rport/db/migration/jobs"
+./server/api/jobs/jobs_test.go:14:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api/jobs/jobs_test.go:15:	"github.com/realvnc-labs/rport/server/test/jb"
+./server/api/jobs/jobs_test.go:16:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/jobs/jobs_test.go:17:	"github.com/realvnc-labs/rport/share/models"
+./server/api/jobs/jobs_test.go:18:	"github.com/realvnc-labs/rport/share/query"
+./server/api/jobs/schedule/sqlite_test.go:9:	jobsmigration "github.com/realvnc-labs/rport/db/migration/jobs"
+./server/api/jobs/schedule/sqlite_test.go:10:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api/jobs/schedule/sqlite_test.go:11:	"github.com/realvnc-labs/rport/server/api/jobs"
+./server/api/jobs/schedule/sqlite_test.go:12:	"github.com/realvnc-labs/rport/server/test/jb"
+./server/api/jobs/schedule/sqlite_test.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/jobs/schedule/sqlite_test.go:14:	"github.com/realvnc-labs/rport/share/ptr"
+./server/api/jobs/schedule/sqlite_test.go:38:			Cwd:       "/home/rport",
+./server/api/jobs/schedule/sqlite_test.go:56:			Cwd:                 "/home/rport",
+./server/api/jobs/schedule/sqlite.go:10:	"github.com/realvnc-labs/rport/share/models"
+./server/api/jobs/schedule/sqlite.go:11:	"github.com/realvnc-labs/rport/share/query"
+./server/api/jobs/schedule/model.go:10:	"github.com/realvnc-labs/rport/server/api/jobs"
+./server/api/jobs/schedule/model.go:11:	"github.com/realvnc-labs/rport/share/models"
+./server/api/jobs/schedule/model_test.go:11:	"github.com/realvnc-labs/rport/server/api/jobs"
+./server/api/jobs/schedule/model_test.go:12:	"github.com/realvnc-labs/rport/share/models"
+./server/api/jobs/schedule/model_test.go:13:	"github.com/realvnc-labs/rport/share/ptr"
+./server/api/jobs/schedule/manager.go:12:	"github.com/realvnc-labs/rport/server/api"
+./server/api/jobs/schedule/manager.go:13:	"github.com/realvnc-labs/rport/server/api/errors"
+./server/api/jobs/schedule/manager.go:14:	"github.com/realvnc-labs/rport/server/api/jobs"
+./server/api/jobs/schedule/manager.go:15:	"github.com/realvnc-labs/rport/server/validation"
+./server/api/jobs/schedule/manager.go:16:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/jobs/schedule/manager.go:17:	"github.com/realvnc-labs/rport/share/models"
+./server/api/jobs/schedule/manager.go:18:	"github.com/realvnc-labs/rport/share/query"
+./server/api/jobs/schedule/manager.go:19:	"github.com/realvnc-labs/rport/share/random"
+./server/api/jobs/cleanup_test.go:11:	"github.com/realvnc-labs/rport/db/migration/jobs"
+./server/api/jobs/cleanup_test.go:12:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api/jobs/cleanup_test.go:13:	"github.com/realvnc-labs/rport/server/test/jb"
+./server/api/jobs/multijobs.go:12:	"github.com/realvnc-labs/rport/share/models"
+./server/api/jobs/multijobs.go:13:	"github.com/realvnc-labs/rport/share/query"
+./server/api/jobs/jobs.go:15:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api/jobs/jobs.go:16:	"github.com/realvnc-labs/rport/share/logger"
+./server/api/jobs/jobs.go:17:	"github.com/realvnc-labs/rport/share/models"
+./server/api/jobs/jobs.go:18:	"github.com/realvnc-labs/rport/share/query"
+./server/api/jobs/model.go:4:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/api/jobs/model.go:5:	"github.com/realvnc-labs/rport/share/models"
+./server/api/session/sqlite_test.go:8:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api/session/sqlite.go:11:	"github.com/realvnc-labs/rport/db/migration/api_sessions"
+./server/api/session/sqlite.go:12:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api/payloads.go:6:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/const.go:8:	DefaultDataDirectory = "/var/lib/rport"
+./server/api_handler_schedules_test.go:16:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_schedules_test.go:17:	"github.com/realvnc-labs/rport/server/api/jobs/schedule"
+./server/api_handler_schedules_test.go:18:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/api_handler_schedules_test.go:19:	"github.com/realvnc-labs/rport/server/clients"
+./server/api_handler_schedules_test.go:20:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/api_handler_plus_status_test.go:13:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_handler_plus_status_test.go:14:	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
+./server/api_handler_plus_status_test.go:15:	"github.com/realvnc-labs/rport/plus/capabilities/license/licensemock"
+./server/api_handler_plus_status_test.go:16:	"github.com/realvnc-labs/rport/plus/capabilities/status"
+./server/api_handler_plus_status_test.go:17:	"github.com/realvnc-labs/rport/plus/capabilities/status/statusmock"
+./server/api_handler_plus_status_test.go:18:	"github.com/realvnc-labs/rport/server/api/authorization"
+./server/api_handler_plus_status_test.go:19:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_plus_status_test.go:20:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_handler_plus_status_test.go:21:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_plus_status_test.go:22:	"github.com/realvnc-labs/rport/share/security"
+./server/api_handler_plus_status_test.go:62:	plusLog = logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./server/upload_test.go:20:	"github.com/realvnc-labs/rport/server/api"
+./server/upload_test.go:21:	"github.com/realvnc-labs/rport/server/api/users"
+./server/upload_test.go:22:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/upload_test.go:23:	"github.com/realvnc-labs/rport/server/clients"
+./server/upload_test.go:24:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/upload_test.go:25:	"github.com/realvnc-labs/rport/share/files"
+./server/upload_test.go:26:	"github.com/realvnc-labs/rport/share/models"
+./server/upload_test.go:27:	"github.com/realvnc-labs/rport/share/test"
+./server/api_helper_users.go:7:	"github.com/realvnc-labs/rport/server/api"
+./server/api_helper_users.go:8:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_helper_users.go:9:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_test.go:12:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api_test.go:13:	"github.com/realvnc-labs/rport/server/api/session"
+./server/api_test.go:14:	"github.com/realvnc-labs/rport/server/bearer"
+./server/api_test.go:15:	chshare "github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_verify2fa.go:6:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_handler_verify2fa.go:7:	"github.com/realvnc-labs/rport/server/bearer"
+./server/api_router.go:11:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_router.go:12:	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
+./server/api_router.go:13:	"github.com/realvnc-labs/rport/server/api/middleware"
+./server/api_router.go:14:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_router.go:15:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_router.go:16:	"github.com/realvnc-labs/rport/share/security"
+./server/caddy/config.go:13:	"github.com/realvnc-labs/rport/share/files"
+./server/caddy/config.go:33:	ErrCaddyUnknownLogLevel                     = errors.New("rport log level not a known caddy log level")
+./server/caddy/config.go:60:	LogLevel         string `mapstructure:"-"` // taken from the rport server log level
+./server/caddy/config.go:61:	DataDir          string `mapstructure:"-"` // taken from the rport server datadir
+./server/caddy/caddy.go:15:	"github.com/realvnc-labs/rport/share/logger"
+./server/caddy/caddy.go:29:	// readers below used in a pipe that we use for relaying caddy log messages into the rport log
+./server/caddy/caddy.go:31:	r *io.PipeReader // where rport should read caddy log messages
+./server/caddy/caddy_api_test.go:16:	"github.com/realvnc-labs/rport/server/caddy"
+./server/caddy/caddy_api_test.go:17:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/caddy/caddy_api_test.go:72:		BaseDomain:       "tunnels.rport.test",
+./server/caddy/caddy_api_test.go:73:		CertFile:         "../../testdata/certs/tunnels.rport.test.crt",
+./server/caddy/caddy_api_test.go:74:		KeyFile:          "../../testdata/certs/tunnels.rport.test.key",
+./server/caddy/config_test.go:9:	"github.com/realvnc-labs/rport/server/caddy"
+./server/caddy/config_test.go:10:	"github.com/realvnc-labs/rport/share/files"
+./server/caddy/config_test.go:65:				BaseDomain:  "tunnels.rport.example.com",
+./server/caddy/config_test.go:66:				CertFile:    "../../testdata/certs/tunnels.rport.test.crt",
+./server/caddy/config_test.go:67:				KeyFile:     "../../testdata/certs/tunnels.rport.test.key",
+./server/caddy/config_test.go:76:				BaseDomain:  "tunnels.rport.example.com",
+./server/caddy/config_test.go:77:				CertFile:    "../../testdata/certs/tunnels.rport.test.crt",
+./server/caddy/config_test.go:78:				KeyFile:     "../../testdata/certs/tunnels.rport.test.key",
+./server/caddy/config_test.go:87:				BaseDomain: "tunnels.rport.example.com",
+./server/caddy/config_test.go:88:				CertFile:   "../../testdata/certs/tunnels.rport.test.crt",
+./server/caddy/config_test.go:89:				KeyFile:    "../../testdata/certs/tunnels.rport.test.key",
+./server/caddy/config_test.go:98:				BaseDomain:  "tunnels.rport.example.com",
+./server/caddy/config_test.go:99:				CertFile:    "../../testdata/certs/tunnels.rport.test.crt",
+./server/caddy/config_test.go:100:				KeyFile:     "../../testdata/certs/tunnels.rport.test.key",
+./server/caddy/config_test.go:109:				// BaseDomain: "tunnels.rport.example.com",
+./server/caddy/config_test.go:110:				CertFile: "../../testdata/certs/tunnels.rport.test.crt",
+./server/caddy/config_test.go:111:				KeyFile:  "../../testdata/certs/tunnels.rport.test.key",
+./server/caddy/config_test.go:120:				BaseDomain:  "tunnels.rport.example.com",
+./server/caddy/config_test.go:121:				// CertFile: "/var/lib/rport/wildcard.crt",
+./server/caddy/config_test.go:122:				KeyFile: "/var/lib/rport/wildcard.key",
+./server/caddy/config_test.go:131:				BaseDomain:  "tunnels.rport.example.com",
+./server/caddy/config_test.go:132:				CertFile:    "/var/lib/rport/wildcard.crt",
+./server/caddy/config_test.go:133:				// KeyFile:  "/var/lib/rport/wildcard.key",
+./server/caddy/config_test.go:142:				BaseDomain:  "tunnels.rport.example.com",
+./server/caddy/config_test.go:143:				CertFile:    "../../testdata/certs/tunnels.rport.test.crt",
+./server/caddy/config_test.go:144:				KeyFile:     "../../testdata/certs/tunnels.rport.test.key",
+./server/caddy/config_test.go:145:				APIHostname: "api.rport.test",
+./server/caddy/config_test.go:155:				BaseDomain:  "tunnels.rport.example.com",
+./server/caddy/config_test.go:156:				CertFile:    "../../testdata/certs/tunnels.rport.test.crt",
+./server/caddy/config_test.go:157:				KeyFile:     "../../testdata/certs/tunnels.rport.test.key",
+./server/caddy/config_test.go:158:				// APIHostname: "api.rport.test",
+./server/caddy/caddy_test.go:12:	"github.com/realvnc-labs/rport/server/caddy"
+./server/caddy/caddy_test.go:13:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/caddy/caddy_test.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./server/caddy/caddy_test.go:53:		BaseDomain:       "tunnels.rport.test",
+./server/caddy/caddy_test.go:54:		CertFile:         "../../testdata/certs/tunnels.rport.test.crt",
+./server/caddy/caddy_test.go:55:		KeyFile:          "../../testdata/certs/tunnels.rport.test.key",
+./server/caddy/caddy_test.go:56:		APIHostname:      "api.rport.test",
+./server/caddy/caddy_test.go:58:		APICertFile:      "../../testdata/certs/api.rport.test.crt",
+./server/caddy/caddy_test.go:59:		APIKeyFile:       "../../testdata/certs/api.rport.test.key",
+./server/api_handler_storedtunnels.go:9:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_storedtunnels.go:10:	"github.com/realvnc-labs/rport/server/clients/storedtunnels"
+./server/api_handler_storedtunnels.go:11:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_storedtunnels.go:12:	"github.com/realvnc-labs/rport/share/query"
+./server/client_listener.go:25:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/client_listener.go:26:	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
+./server/client_listener.go:27:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/transformers"
+./server/client_listener.go:28:	"github.com/realvnc-labs/rport/server/api/middleware"
+./server/client_listener.go:29:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/client_listener.go:30:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/client_listener.go:31:	"github.com/realvnc-labs/rport/server/clients"
+./server/client_listener.go:32:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/client_listener.go:33:	chshare "github.com/realvnc-labs/rport/share"
+./server/client_listener.go:34:	"github.com/realvnc-labs/rport/share/comm"
+./server/client_listener.go:35:	"github.com/realvnc-labs/rport/share/logger"
+./server/client_listener.go:36:	"github.com/realvnc-labs/rport/share/models"
+./server/client_listener.go:37:	"github.com/realvnc-labs/rport/share/security"
+./server/client_listener.go:237:	// websockets upgrade AND has rport prefix
+./server/client_listener.go:240:	if upgrade == "websocket" && strings.HasPrefix(protocol, "rport-") {
+./server/totp_test.go:10:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_library.go:10:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_library.go:11:	"github.com/realvnc-labs/rport/server/api/command"
+./server/api_handler_library.go:12:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_handler_library.go:13:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_handler_library.go:14:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_library.go:15:	"github.com/realvnc-labs/rport/server/script"
+./server/vault/manager_test.go:12:	"github.com/realvnc-labs/rport/share/query"
+./server/vault/manager_test.go:14:	"github.com/realvnc-labs/rport/share/enc"
+./server/vault/manager_test.go:19:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/vault/validate.go:6:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/vault/sqlite_test.go:9:	chshare "github.com/realvnc-labs/rport/share/logger"
+./server/vault/sqlite_test.go:10:	"github.com/realvnc-labs/rport/share/query"
+./server/vault/sqlite_test.go:17:	"github.com/realvnc-labs/rport/share/test"
+./server/vault/pass_test.go:10:	"github.com/realvnc-labs/rport/server/api/errors"
+./server/vault/pass_test.go:11:	"github.com/realvnc-labs/rport/share/enc"
+./server/vault/sqlite.go:11:	"github.com/realvnc-labs/rport/share/logger"
+./server/vault/sqlite.go:12:	"github.com/realvnc-labs/rport/share/query"
+./server/vault/sqlite.go:14:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/vault/sqlite.go:18:	"github.com/realvnc-labs/rport/db/migration/vaults"
+./server/vault/sqlite.go:20:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/vault/manager.go:12:	"github.com/realvnc-labs/rport/share/logger"
+./server/vault/manager.go:13:	"github.com/realvnc-labs/rport/share/query"
+./server/vault/manager.go:15:	"github.com/realvnc-labs/rport/share/enc"
+./server/vault/manager.go:17:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/vault/pass.go:12:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/vault/pass.go:13:	"github.com/realvnc-labs/rport/share/enc"
+./server/api_handler_scripts.go:11:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_scripts.go:12:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_handler_scripts.go:13:	"github.com/realvnc-labs/rport/server/api/jobs"
+./server/api_handler_scripts.go:14:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_handler_scripts.go:15:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_scripts.go:16:	"github.com/realvnc-labs/rport/share/ws"
+./server/clientsauth/clientauth.go:9:// ClientAuth represents rport client authentication credentials.
+./server/clientsauth/clientauth_mocks.go:10:	"github.com/realvnc-labs/rport/share/query"
+./server/clientsauth/database_test.go:6:	"github.com/realvnc-labs/rport/share/query"
+./server/clientsauth/database_test.go:12:	"github.com/realvnc-labs/rport/share/enums"
+./server/clientsauth/single.go:6:	"github.com/realvnc-labs/rport/share/enums"
+./server/clientsauth/single.go:7:	"github.com/realvnc-labs/rport/share/query"
+./server/clientsauth/file.go:14:	"github.com/realvnc-labs/rport/share/enums"
+./server/clientsauth/file.go:15:	"github.com/realvnc-labs/rport/share/query"
+./server/clientsauth/file.go:34:// GetAll returns rport clients auth credentials from a given file.
+./server/clientsauth/file.go:38:		return nil, fmt.Errorf("failed to decode rport clients auth file: %v", err)
+./server/clientsauth/file.go:83:		return nil, fmt.Errorf("failed to decode rport clients auth file: %v", err)
+./server/clientsauth/file.go:98:		return false, fmt.Errorf("failed to decode rport clients auth file: %v", err)
+./server/clientsauth/file.go:110:		return false, fmt.Errorf("failed to encode rport clients auth file: %v", err)
+./server/clientsauth/file.go:119:		return fmt.Errorf("failed to decode rport clients auth file: %v", err)
+./server/clientsauth/file.go:126:		return fmt.Errorf("failed to encode rport clients auth file: %v", err)
+./server/clientsauth/file.go:139:		return nil, fmt.Errorf("failed to read rport clients auth file %q: %s", c.fileName, err)
+./server/clientsauth/file.go:153:		return fmt.Errorf("failed to open rport clients auth file: %v", err)
+./server/clientsauth/file.go:160:		return fmt.Errorf("failed to write rport clients auth: %v", err)
+./server/clientsauth/database.go:11:	"github.com/realvnc-labs/rport/share/query"
+./server/clientsauth/database.go:13:	"github.com/realvnc-labs/rport/share/enums"
+./server/clientsauth/provider.go:4:	"github.com/realvnc-labs/rport/share/enums"
+./server/clientsauth/provider.go:5:	"github.com/realvnc-labs/rport/share/query"
+./server/alerts/alerts.go:8:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rules"
+./server/alerts/alerts.go:9:	"github.com/realvnc-labs/rport/server/api/errors"
+./server/alerts/alerts.go:10:	"github.com/realvnc-labs/rport/share/query"
+./server/api_handler_commands_test.go:21:	"github.com/realvnc-labs/rport/db/migration/client_groups"
+./server/api_handler_commands_test.go:22:	jobsmigration "github.com/realvnc-labs/rport/db/migration/jobs"
+./server/api_handler_commands_test.go:23:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api_handler_commands_test.go:24:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_commands_test.go:25:	"github.com/realvnc-labs/rport/server/api/authorization"
+./server/api_handler_commands_test.go:26:	"github.com/realvnc-labs/rport/server/api/jobs"
+./server/api_handler_commands_test.go:27:	"github.com/realvnc-labs/rport/server/api/jobs/schedule"
+./server/api_handler_commands_test.go:28:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_commands_test.go:29:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/api_handler_commands_test.go:30:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_handler_commands_test.go:31:	"github.com/realvnc-labs/rport/server/clients"
+./server/api_handler_commands_test.go:32:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/api_handler_commands_test.go:33:	"github.com/realvnc-labs/rport/server/test/jb"
+./server/api_handler_commands_test.go:34:	"github.com/realvnc-labs/rport/share/comm"
+./server/api_handler_commands_test.go:35:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_commands_test.go:36:	"github.com/realvnc-labs/rport/share/models"
+./server/api_handler_commands_test.go:37:	"github.com/realvnc-labs/rport/share/query"
+./server/api_handler_commands_test.go:38:	"github.com/realvnc-labs/rport/share/random"
+./server/api_handler_commands_test.go:39:	"github.com/realvnc-labs/rport/share/security"
+./server/api_handler_commands_test.go:40:	"github.com/realvnc-labs/rport/share/test"
+./server/api_handler_commands_test.go:41:	"github.com/realvnc-labs/rport/share/ws"
+./server/api_handler_tunnels.go:7:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_tunnels.go:8:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/api_handler_tunnels.go:9:	"github.com/realvnc-labs/rport/share/models"
+./server/api_handler_users.go:11:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_handler_users.go:12:	extperm "github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
+./server/api_handler_users.go:13:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_users.go:14:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_users.go:15:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_handler_users.go:16:	"github.com/realvnc-labs/rport/server/routes"
+./server/totp.go:14:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_vault.go:10:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_vault.go:11:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_handler_vault.go:12:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_handler_vault.go:13:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_vault.go:14:	"github.com/realvnc-labs/rport/server/vault"
+./server/api_handler_users_test.go:17:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_users_test.go:18:	"github.com/realvnc-labs/rport/server/api/session"
+./server/api_handler_users_test.go:19:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_users_test.go:20:	"github.com/realvnc-labs/rport/server/bearer"
+./server/api_handler_users_test.go:21:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_handler_users_test.go:22:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_users_test.go:23:	"github.com/realvnc-labs/rport/share/security"
+./server/api_helper_authorization.go:6:	chshare "github.com/realvnc-labs/rport/share"
+./server/api_handler_monitoring.go:10:	"github.com/realvnc-labs/rport/server/monitoring"
+./server/api_handler_monitoring.go:11:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_monitoring.go:12:	"github.com/realvnc-labs/rport/share/comm"
+./server/api_handler_monitoring.go:13:	"github.com/realvnc-labs/rport/share/query"
+./server/api_helper_commands.go:10:	"github.com/realvnc-labs/rport/server/api/jobs"
+./server/api_helper_commands.go:11:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_helper_commands.go:12:	"github.com/realvnc-labs/rport/server/validation"
+./server/api_helper_commands.go:13:	"github.com/realvnc-labs/rport/share/models"
+./server/api_helper_commands.go:14:	"github.com/realvnc-labs/rport/share/ws"
+./server/ports/port_distributor.go:10:	"github.com/realvnc-labs/rport/share/models"
+./server/ports/port_distributor_test.go:10:	"github.com/realvnc-labs/rport/share/models"
+./server/api_handler_auditlog.go:7:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_helper_usergroups.go:8:	"github.com/realvnc-labs/rport/server/api"
+./server/api_helper_usergroups.go:9:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_helper_usergroups.go:10:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_login_auth_provider.go:6:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_login_auth_provider.go:7:	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
+./server/api_login_auth_provider.go:8:	"github.com/realvnc-labs/rport/server/api"
+./server/api_login_auth_provider.go:9:	"github.com/realvnc-labs/rport/server/routes"
+./server/clients/sort.go:7:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/client_service.go:19:	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
+./server/clients/client_service.go:20:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/transformers"
+./server/clients/client_service.go:21:	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
+./server/clients/client_service.go:23:	"github.com/realvnc-labs/rport/server/acme"
+./server/clients/client_service.go:24:	apiErrors "github.com/realvnc-labs/rport/server/api/errors"
+./server/clients/client_service.go:25:	"github.com/realvnc-labs/rport/server/caddy"
+./server/clients/client_service.go:26:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/clients/client_service.go:27:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/client_service.go:28:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/clients/client_service.go:29:	"github.com/realvnc-labs/rport/server/ports"
+./server/clients/client_service.go:30:	chshare "github.com/realvnc-labs/rport/share"
+./server/clients/client_service.go:31:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/client_service.go:32:	"github.com/realvnc-labs/rport/share/models"
+./server/clients/client_service.go:33:	"github.com/realvnc-labs/rport/share/query"
+./server/clients/clientdata/client.go:12:	"github.com/realvnc-labs/rport/server/api/users"
+./server/clients/clientdata/client.go:13:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/clients/clientdata/client.go:14:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/clients/clientdata/client.go:15:	chshare "github.com/realvnc-labs/rport/share"
+./server/clients/clientdata/client.go:16:	"github.com/realvnc-labs/rport/share/clientconfig"
+./server/clients/clientdata/client.go:17:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/clientdata/client.go:18:	"github.com/realvnc-labs/rport/share/models"
+./server/clients/clientdata/client.go:19:	"github.com/realvnc-labs/rport/share/random"
+./server/clients/clientdata/client_test.go:11:	"github.com/realvnc-labs/rport/server/api/users"
+./server/clients/clientdata/client_test.go:12:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/clients/clientdata/client_test.go:56:			Name:            &cgroups.ParamValues{"random rport client*", "My Client*"},
+./server/clients/clienttunnel/websocket_tcp_proxy.go:9:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/clienttunnel/tunnel_udp.go:13:	"github.com/realvnc-labs/rport/share/comm"
+./server/clients/clienttunnel/tunnel_udp.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/clienttunnel/tunnel_udp.go:15:	"github.com/realvnc-labs/rport/share/models"
+./server/clients/clienttunnel/tunnel_udp.go:52:	sshChan, reqs, err := t.sshConn.OpenChannel("rport", []byte(remoteAddr))
+./server/clients/clienttunnel/tunnel_udp_test.go:13:	"github.com/realvnc-labs/rport/share/comm"
+./server/clients/clienttunnel/tunnel_udp_test.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/clienttunnel/tunnel_udp_test.go:15:	"github.com/realvnc-labs/rport/share/models"
+./server/clients/clienttunnel/tunnel_udp_test.go:16:	"github.com/realvnc-labs/rport/share/test"
+./server/clients/clienttunnel/tunnel_allowed.go:8:	"github.com/realvnc-labs/rport/share/comm"
+./server/clients/clienttunnel/tunnel_allowed.go:9:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/clienttunnel/tunnel_acl_test.go:10:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/clients/clienttunnel/tunnel_tcp.go:15:	chshare "github.com/realvnc-labs/rport/share"
+./server/clients/clienttunnel/tunnel_tcp.go:16:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/clienttunnel/tunnel_tcp.go:17:	"github.com/realvnc-labs/rport/share/models"
+./server/clients/clienttunnel/tunnel_tcp.go:168:	dst, reqs, err := t.sshConn.OpenChannel("rport", []byte(t.Remote.Remote()))
+./server/clients/clienttunnel/tunnel_internal_proxy.go:20:	"github.com/realvnc-labs/rport/server/acme"
+./server/clients/clienttunnel/tunnel_internal_proxy.go:21:	chshare "github.com/realvnc-labs/rport/share"
+./server/clients/clienttunnel/tunnel_internal_proxy.go:22:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/clienttunnel/tunnel_internal_proxy.go:23:	"github.com/realvnc-labs/rport/share/security"
+./server/clients/clienttunnel/tunnel.go:12:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/clienttunnel/tunnel.go:13:	"github.com/realvnc-labs/rport/share/models"
+./server/clients/clienttunnel/tunnel_proxy_connector_vnc.go:11:	"github.com/realvnc-labs/rport/server/api/middleware"
+./server/clients/clienttunnel/tunnel_internal_proxy_test.go:8:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/clients/clienttunnel/tunnel_internal_proxy_test.go:37:				CertFile: "../../../testdata/certs/tunnels.rport.test.crt",
+./server/clients/clienttunnel/tunnel_internal_proxy_test.go:38:				KeyFile:  "../../../testdata/certs/tunnels.rport.test.key",
+./server/clients/clienttunnel/tunnel_internal_proxy_test.go:46:				CertFile: "../../../testdata/certs/tunnels.rport.test.crt",
+./server/clients/clienttunnel/tunnel_internal_proxy_test.go:54:				KeyFile: "../../../testdata/certs/tunnels.rport.test.key",
+./server/clients/clienttunnel/tunnel_internal_proxy_test.go:63:				CertFile:   "../../../testdata/certs/tunnels.rport.test.crt",
+./server/clients/clienttunnel/tunnel_internal_proxy_test.go:64:				KeyFile:    "../../../testdata/certs/tunnels.rport.test.key",
+./server/clients/storedtunnels/stored_tunnels_test.go:10:	"github.com/realvnc-labs/rport/db/migration/clients"
+./server/clients/storedtunnels/stored_tunnels_test.go:11:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/clients/storedtunnels/stored_tunnels_test.go:12:	"github.com/realvnc-labs/rport/share/query"
+./server/clients/storedtunnels/stored_tunnels_test.go:13:	"github.com/realvnc-labs/rport/share/random"
+./server/clients/storedtunnels/models.go:6:	"github.com/realvnc-labs/rport/share/types"
+./server/clients/storedtunnels/stored_tunnels.go:9:	"github.com/realvnc-labs/rport/server/api"
+./server/clients/storedtunnels/stored_tunnels.go:10:	"github.com/realvnc-labs/rport/share/query"
+./server/clients/storedtunnels/stored_tunnels.go:11:	"github.com/realvnc-labs/rport/share/random"
+./server/clients/storedtunnels/sqlite.go:8:	"github.com/realvnc-labs/rport/share/query"
+./server/clients/cr.go:12:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/clients/cr.go:13:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/cr.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/cr.go:15:	"github.com/realvnc-labs/rport/share/query"
+./server/clients/client_service_test.go:23:	clientsmigration "github.com/realvnc-labs/rport/db/migration/clients"
+./server/clients/client_service_test.go:24:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/clients/client_service_test.go:25:	apiErrors "github.com/realvnc-labs/rport/server/api/errors"
+./server/clients/client_service_test.go:26:	"github.com/realvnc-labs/rport/server/api/users"
+./server/clients/client_service_test.go:27:	"github.com/realvnc-labs/rport/server/caddy"
+./server/clients/client_service_test.go:28:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/clients/client_service_test.go:29:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/client_service_test.go:30:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/clients/client_service_test.go:31:	"github.com/realvnc-labs/rport/server/clientsauth"
+./server/clients/client_service_test.go:32:	"github.com/realvnc-labs/rport/server/ports"
+./server/clients/client_service_test.go:33:	chshare "github.com/realvnc-labs/rport/share"
+./server/clients/client_service_test.go:34:	"github.com/realvnc-labs/rport/share/models"
+./server/clients/client_service_test.go:35:	"github.com/realvnc-labs/rport/share/test"
+./server/clients/client_service_test.go:116:// go test -count=1 -race -v github.com/realvnc-labs/rport/server/clients -run TestStartClientConcurrency
+./server/clients/client_service_test.go:951:				CertFile: "../../../testdata/certs/rport.test.crt",
+./server/clients/client_service_test.go:952:				KeyFile:  "../../../testdata/certs/rport.test.key",
+./server/clients/client_service_test.go:971:			requestedRemote.TunnelURL = "https://12345678.tunnels.rport.test"
+./server/clients/client_service_test.go:983:			assert.Equal(t, "tunnels.rport.test", mockCaddyAPI.NewRouteRequest.DownstreamProxyBaseDomain)
+./server/clients/cleanup_test.go:11:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/format.go:6:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/cleanup.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/payloads.go:6:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/payloads.go:7:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/clients/payloads.go:8:	"github.com/realvnc-labs/rport/share/clientconfig"
+./server/clients/payloads.go:9:	"github.com/realvnc-labs/rport/share/models"
+./server/clients/payloads.go:10:	"github.com/realvnc-labs/rport/share/query"
+./server/clients/test_helpers.go:10:	"github.com/realvnc-labs/rport/db/migration/clients"
+./server/clients/test_helpers.go:11:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/clients/test_helpers.go:12:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/sqlite_test.go:11:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/init_test.go:10:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/sort_test.go:8:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/init.go:7:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/init.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/client_builder.go:16:	"github.com/realvnc-labs/rport/share/clientconfig"
+./server/clients/client_builder.go:17:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/client_builder.go:23:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/client_builder.go:24:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/clients/client_builder.go:25:	chshare "github.com/realvnc-labs/rport/share/models"
+./server/clients/client_builder.go:26:	"github.com/realvnc-labs/rport/share/random"
+./server/clients/data_test.go:7:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/data_test.go:8:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/clients/data_test.go:9:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/data_test.go:10:	"github.com/realvnc-labs/rport/share/models"
+./server/clients/sqlite.go:14:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/clients/sqlite.go:15:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/sqlite.go:16:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/clients/sqlite.go:17:	chshare "github.com/realvnc-labs/rport/share/clientconfig"
+./server/clients/sqlite.go:18:	"github.com/realvnc-labs/rport/share/logger"
+./server/clients/sqlite.go:19:	"github.com/realvnc-labs/rport/share/models"
+./server/clients/cr_test.go:7:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/clients/cr_test.go:12:	"github.com/realvnc-labs/rport/server/api/users"
+./server/clients/cr_test.go:13:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/clients/cr_test.go:14:	"github.com/realvnc-labs/rport/share/query"
+./server/api_handler_login.go:10:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_handler_login.go:11:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_login.go:12:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_handler_login.go:13:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_login.go:14:	"github.com/realvnc-labs/rport/server/bearer"
+./server/api_handler_login.go:15:	chshare "github.com/realvnc-labs/rport/share"
+./server/api_handler_login.go:16:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_login.go:47:	// TODO: consider to move this check from all API endpoints to middleware similar to https://github.com/realvnc-labs/rport/pull/199/commits/4ca1ca9f56c557762d79a60ffc96d2de47f3133c
+./server/api_handler_notifications.go:9:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_notifications.go:10:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_notifications.go:11:	"github.com/realvnc-labs/rport/share/query"
+./server/api_handler_plus_alerting_rules_runner.go:9:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_handler_plus_alerting_rules_runner.go:10:	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
+./server/api_handler_plus_alerting_rules_runner.go:11:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rundata"
+./server/api_handler_plus_alerting_rules_runner.go:12:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_plus_alerting_rules_runner.go:13:	"github.com/realvnc-labs/rport/server/routes"
+./server/plus_test.go:10:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/plus_test.go:11:	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
+./server/plus_test.go:12:	"github.com/realvnc-labs/rport/plus/validator"
+./server/plus_test.go:13:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/plus_test.go:14:	"github.com/realvnc-labs/rport/share/logger"
+./server/plus_test.go:18:	defaultPluginPath = "../rport-plus/rport-plus.so"
+./server/plus_test.go:57:	plusLog := logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./server/bearer/bearer_auth.go:14:	"github.com/realvnc-labs/rport/server/api/session"
+./server/bearer/bearer_auth.go:15:	"github.com/realvnc-labs/rport/server/routes"
+./server/bearer/bearer_auth.go:16:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_responses.go:8:	"github.com/realvnc-labs/rport/server/api"
+./server/api_responses.go:9:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_responses.go:10:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_listener.go:24:	"github.com/realvnc-labs/rport/db/migration/api_token"
+./server/api_listener.go:25:	"github.com/realvnc-labs/rport/db/migration/library"
+./server/api_listener.go:26:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api_listener.go:27:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_listener.go:28:	"github.com/realvnc-labs/rport/server/notifications"
+./server/api_listener.go:29:	"github.com/realvnc-labs/rport/server/notifications/channels/rmailer"
+./server/api_listener.go:30:	"github.com/realvnc-labs/rport/server/notifications/channels/scriptRunner"
+./server/api_listener.go:31:	"github.com/realvnc-labs/rport/server/notifications/channels/toLog"
+./server/api_listener.go:32:	notificationsSQLite "github.com/realvnc-labs/rport/server/notifications/repository/sqlite"
+./server/api_listener.go:34:	"github.com/realvnc-labs/rport/server/api/authorization"
+./server/api_listener.go:35:	"github.com/realvnc-labs/rport/server/api/session"
+./server/api_listener.go:36:	"github.com/realvnc-labs/rport/server/clients/storedtunnels"
+./server/api_listener.go:37:	"github.com/realvnc-labs/rport/server/script"
+./server/api_listener.go:39:	"github.com/realvnc-labs/rport/server/api"
+./server/api_listener.go:40:	"github.com/realvnc-labs/rport/server/api/command"
+./server/api_listener.go:41:	"github.com/realvnc-labs/rport/server/api/message"
+./server/api_listener.go:42:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_listener.go:43:	"github.com/realvnc-labs/rport/server/bearer"
+./server/api_listener.go:44:	"github.com/realvnc-labs/rport/server/vault"
+./server/api_listener.go:46:	extperm "github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
+./server/api_listener.go:47:	chshare "github.com/realvnc-labs/rport/share"
+./server/api_listener.go:48:	"github.com/realvnc-labs/rport/share/enums"
+./server/api_listener.go:49:	"github.com/realvnc-labs/rport/share/files"
+./server/api_listener.go:50:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_listener.go:51:	"github.com/realvnc-labs/rport/share/random"
+./server/api_listener.go:52:	"github.com/realvnc-labs/rport/share/security"
+./server/api_handler_schedules.go:10:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_schedules.go:11:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_handler_schedules.go:12:	"github.com/realvnc-labs/rport/server/api/jobs/schedule"
+./server/api_handler_schedules.go:13:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_handler_schedules.go:14:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/validation/tunnel.go:9:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/validation/interpreter.go:6:	chshare "github.com/realvnc-labs/rport/share"
+./server/api_handler_clients_test.go:19:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_clients_test.go:20:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_clients_test.go:21:	"github.com/realvnc-labs/rport/server/caddy"
+./server/api_handler_clients_test.go:22:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/api_handler_clients_test.go:23:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_handler_clients_test.go:24:	"github.com/realvnc-labs/rport/server/clients"
+./server/api_handler_clients_test.go:25:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/api_handler_clients_test.go:26:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/api_handler_clients_test.go:27:	"github.com/realvnc-labs/rport/share/models"
+./server/api_handler_clients_test.go:28:	"github.com/realvnc-labs/rport/share/query"
+./server/api_handler_clients_test.go:29:	"github.com/realvnc-labs/rport/share/test"
+./server/api_handler_clients_test.go:119:                "rport":"22",
+./server/api_handler_clients_test.go:140:                "rport":"80",
+./server/api_handler_clients_test.go:433:				"rport": "22",
+./server/api_handler_clients_test.go:460:				"rport": "22",
+./server/api_handler_clients_test.go:487:				"rport": "22",
+./server/api_handler_clients_test.go:514:				"rport": "22",
+./server/api_handler_clients_test.go:623:				"rport": "22",
+./server/api_handler_clients_test.go:651:				"rport": "22",
+./server/api_handler_clients_test.go:654:				"tunnel_url": "https://12345678.tunnels.rport.test:443",
+./server/api_handler_clients_test.go:679:				"rport": "22",
+./server/api_handler_clients_test.go:682:				"tunnel_url": "https://12345678.tunnels.rport.test:8443",
+./server/api_handler_clients_test.go:707:				"rport": "22",
+./server/api_handler_clients_test.go:710:				"tunnel_url": "https://12345678.tunnels.rport.test:443",
+./server/api_handler_clients_test.go:735:					"rport": "22",
+./server/api_handler_clients_test.go:787:							BaseDomain:       "tunnels.rport.test",
+./server/api_handler_clients_test.go:788:							CertFile:         "../../testdata/certs/tunnels.rport.test.crt",
+./server/api_handler_clients_test.go:789:							KeyFile:          "../../testdata/certs/tunnels.rport.test.key",
+./server/upload.go:13:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/upload.go:14:	errors3 "github.com/realvnc-labs/rport/share/errors"
+./server/upload.go:16:	"github.com/realvnc-labs/rport/server/api"
+./server/upload.go:17:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/upload.go:18:	"github.com/realvnc-labs/rport/server/clients"
+./server/upload.go:19:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/upload.go:20:	"github.com/realvnc-labs/rport/share/comm"
+./server/upload.go:21:	"github.com/realvnc-labs/rport/share/files"
+./server/upload.go:22:	"github.com/realvnc-labs/rport/share/models"
+./server/upload.go:23:	"github.com/realvnc-labs/rport/share/random"
+./server/api_login_auth_provider_test.go:15:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_login_auth_provider_test.go:16:	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
+./server/api_login_auth_provider_test.go:17:	"github.com/realvnc-labs/rport/plus/license"
+./server/api_login_auth_provider_test.go:18:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_login_auth_provider_test.go:19:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_login_auth_provider_test.go:20:	"github.com/realvnc-labs/rport/share/files"
+./server/api_login_auth_provider_test.go:21:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_login_auth_provider_test.go:22:	"github.com/realvnc-labs/rport/share/security"
+./server/api_login_auth_provider_test.go:100:	plusLog := logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./server/api_login_auth_provider_test.go:172:	plusLog := logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./server/client_status_check.go:7:	"github.com/realvnc-labs/rport/server/clients"
+./server/client_status_check.go:8:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/client_status_check.go:9:	"github.com/realvnc-labs/rport/share/comm"
+./server/client_status_check.go:10:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_login_test.go:16:	"github.com/realvnc-labs/rport/db/migration/api_token"
+./server/api_handler_login_test.go:17:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/api_handler_login_test.go:18:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_login_test.go:19:	"github.com/realvnc-labs/rport/server/api/authorization"
+./server/api_handler_login_test.go:20:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_login_test.go:21:	"github.com/realvnc-labs/rport/server/bearer"
+./server/api_handler_login_test.go:22:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_handler_login_test.go:23:	"github.com/realvnc-labs/rport/share/ptr"
+./server/api_handler_login_test.go:24:	"github.com/realvnc-labs/rport/share/random"
+./server/api_handler_login_test.go:25:	"github.com/realvnc-labs/rport/share/security"
+./server/api_handler_clientsauth.go:10:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_clientsauth.go:11:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_handler_clientsauth.go:12:	"github.com/realvnc-labs/rport/server/clientsauth"
+./server/api_handler_clientsauth.go:13:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_clientsauth.go:14:	"github.com/realvnc-labs/rport/share/query"
+./server/server.go:23:	"github.com/realvnc-labs/rport/db/migration/client_groups"
+./server/server.go:24:	clientsmigration "github.com/realvnc-labs/rport/db/migration/clients"
+./server/server.go:25:	jobsmigration "github.com/realvnc-labs/rport/db/migration/jobs"
+./server/server.go:26:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/server.go:27:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/server.go:28:	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
+./server/server.go:29:	"github.com/realvnc-labs/rport/server/acme"
+./server/server.go:30:	"github.com/realvnc-labs/rport/server/api/jobs"
+./server/server.go:31:	"github.com/realvnc-labs/rport/server/api/jobs/schedule"
+./server/server.go:32:	"github.com/realvnc-labs/rport/server/api/session"
+./server/server.go:33:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/server.go:34:	"github.com/realvnc-labs/rport/server/caddy"
+./server/server.go:35:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/server.go:36:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/server.go:37:	"github.com/realvnc-labs/rport/server/clients"
+./server/server.go:38:	"github.com/realvnc-labs/rport/server/clientsauth"
+./server/server.go:39:	"github.com/realvnc-labs/rport/server/monitoring"
+./server/server.go:40:	"github.com/realvnc-labs/rport/server/notifications"
+./server/server.go:41:	"github.com/realvnc-labs/rport/server/ports"
+./server/server.go:42:	"github.com/realvnc-labs/rport/server/scheduler"
+./server/server.go:43:	chshare "github.com/realvnc-labs/rport/share"
+./server/server.go:44:	"github.com/realvnc-labs/rport/share/capabilities"
+./server/server.go:45:	"github.com/realvnc-labs/rport/share/files"
+./server/server.go:46:	"github.com/realvnc-labs/rport/share/logger"
+./server/server.go:47:	"github.com/realvnc-labs/rport/share/models"
+./server/server.go:48:	"github.com/realvnc-labs/rport/share/ws"
+./server/server.go:64:// Server represents a rport service
+./server/server.go:96:// NewServer creates and returns a new rport server
+./server/server.go:121:			return nil, errors.New("failed to get license info capability from rport-plus")
+./server/server.go:311:	s.Logger.Debugf("received license info from rport-plus")
+./server/server.go:374:// Run is responsible for starting the rport service
+./server/api_clientauth_test.go:17:	"github.com/realvnc-labs/rport/server/api"
+./server/api_clientauth_test.go:18:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_clientauth_test.go:19:	"github.com/realvnc-labs/rport/server/clients"
+./server/api_clientauth_test.go:20:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/api_clientauth_test.go:21:	"github.com/realvnc-labs/rport/server/clientsauth"
+./server/api_clientauth_test.go:22:	"github.com/realvnc-labs/rport/share/query"
+./server/monitoring/measurement_queuing.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./server/monitoring/measurement_queuing.go:9:	"github.com/realvnc-labs/rport/share/models"
+./server/monitoring/dbprovider_mock.go:9:	"github.com/realvnc-labs/rport/share/models"
+./server/monitoring/dbprovider_mock.go:10:	"github.com/realvnc-labs/rport/share/query"
+./server/monitoring/service.go:11:	"github.com/realvnc-labs/rport/server/api"
+./server/monitoring/service.go:12:	"github.com/realvnc-labs/rport/server/api/errors"
+./server/monitoring/service.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./server/monitoring/service.go:14:	"github.com/realvnc-labs/rport/share/models"
+./server/monitoring/service.go:15:	"github.com/realvnc-labs/rport/share/query"
+./server/monitoring/measurement_queuing_test.go:12:	"github.com/realvnc-labs/rport/server/monitoring"
+./server/monitoring/measurement_queuing_test.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./server/monitoring/measurement_queuing_test.go:14:	"github.com/realvnc-labs/rport/share/models"
+./server/monitoring/cleanup.go:8:	"github.com/realvnc-labs/rport/share/logger"
+./server/monitoring/service_test.go:8:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/monitoring/service_test.go:12:	"github.com/realvnc-labs/rport/share/models"
+./server/monitoring/service_test.go:13:	"github.com/realvnc-labs/rport/share/query"
+./server/monitoring/sqlite_test.go:12:	chshare "github.com/realvnc-labs/rport/share/logger"
+./server/monitoring/sqlite_test.go:13:	"github.com/realvnc-labs/rport/share/models"
+./server/monitoring/sqlite_test.go:14:	"github.com/realvnc-labs/rport/share/query"
+./server/monitoring/sqlite_test.go:15:	"github.com/realvnc-labs/rport/share/types"
+./server/monitoring/sqlite.go:13:	"github.com/realvnc-labs/rport/db/migration/monitoring"
+./server/monitoring/sqlite.go:14:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/monitoring/sqlite.go:15:	"github.com/realvnc-labs/rport/share/logger"
+./server/monitoring/sqlite.go:16:	"github.com/realvnc-labs/rport/share/models"
+./server/monitoring/sqlite.go:17:	"github.com/realvnc-labs/rport/share/query"
+./server/monitoring/payload.go:6:	"github.com/realvnc-labs/rport/share/query"
+./server/monitoring/payload.go:7:	"github.com/realvnc-labs/rport/share/types"
+./server/api_handler_commands.go:12:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_commands.go:13:	"github.com/realvnc-labs/rport/server/api/jobs"
+./server/api_handler_commands.go:14:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_handler_commands.go:15:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_commands.go:16:	"github.com/realvnc-labs/rport/server/validation"
+./server/api_handler_commands.go:17:	"github.com/realvnc-labs/rport/share/comm"
+./server/api_handler_commands.go:18:	"github.com/realvnc-labs/rport/share/models"
+./server/api_handler_commands.go:19:	"github.com/realvnc-labs/rport/share/query"
+./server/api_handler_commands.go:20:	"github.com/realvnc-labs/rport/share/ws"
+./server/api_handler_plus_alerting_test.go:14:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_handler_plus_alerting_test.go:15:	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
+./server/api_handler_plus_alerting_test.go:16:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/alertingmock"
+./server/api_handler_plus_alerting_test.go:17:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rules"
+./server/api_handler_plus_alerting_test.go:18:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rundata"
+./server/api_handler_plus_alerting_test.go:19:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/templates"
+./server/api_handler_plus_alerting_test.go:20:	"github.com/realvnc-labs/rport/server/api/authorization"
+./server/api_handler_plus_alerting_test.go:21:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_plus_alerting_test.go:22:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_handler_plus_alerting_test.go:23:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_plus_alerting_test.go:24:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_plus_alerting_test.go:25:	"github.com/realvnc-labs/rport/share/security"
+./server/api_handler_plus_alerting_test.go:80:	plusLog = logger.NewLogger("rport-plus", logger.LogOutput{File: os.Stdout}, logger.LogLevelDebug)
+./server/api_helper_clients.go:9:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_helper_clients.go:10:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/api_helper_clients.go:11:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/api_helper_clients.go:12:	"github.com/realvnc-labs/rport/share/models"
+./server/api_handler_clientgroups_test.go:10:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/api_handler_plus_alerting.go:11:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/validations"
+./server/api_handler_plus_alerting.go:12:	"github.com/realvnc-labs/rport/server/alerts"
+./server/api_handler_plus_alerting.go:14:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_handler_plus_alerting.go:15:	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
+./server/api_handler_plus_alerting.go:16:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/rules"
+./server/api_handler_plus_alerting.go:17:	"github.com/realvnc-labs/rport/plus/capabilities/alerting/entities/templates"
+./server/api_handler_plus_alerting.go:18:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_plus_alerting.go:19:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_plus_alerting.go:20:	"github.com/realvnc-labs/rport/share/query"
+./server/2fa_auth_test.go:12:	"github.com/realvnc-labs/rport/server/api/message"
+./server/2fa_auth_test.go:13:	"github.com/realvnc-labs/rport/server/api/users"
+./server/cgroups/group.go:11:	"github.com/realvnc-labs/rport/share/types"
+./server/cgroups/sqlite.go:9:	"github.com/realvnc-labs/rport/share/query"
+./server/api_handler_clientgroups.go:12:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_clientgroups.go:13:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_handler_clientgroups.go:14:	"github.com/realvnc-labs/rport/server/cgroups"
+./server/api_handler_clientgroups.go:15:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_clientgroups.go:16:	"github.com/realvnc-labs/rport/share/ptr"
+./server/api_handler_clientgroups.go:17:	"github.com/realvnc-labs/rport/share/query"
+./server/api_handler_clientgroups.go:18:	"github.com/realvnc-labs/rport/share/types"
+./server/scheduler/scheduler.go:7:	"github.com/realvnc-labs/rport/share/logger"
+./server/chconfig/config_load_test.go:12:	chshare "github.com/realvnc-labs/rport/share"
+./server/chconfig/config_load_test.go:30:	assert.Equal(t, "/var/lib/rport", cfg.Server.DataDir)
+./server/chconfig/config_load_test.go:36:	plugin_path = "/usr/local/lib/rport/rport-plus.so"
+./server/chconfig/config_load_test.go:60:	assert.Equal(t, "/usr/local/lib/rport/rport-plus.so", cfg.PlusConfig.PluginConfig.PluginPath)
+./server/chconfig/config.go:25:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/chconfig/config.go:26:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/chconfig/config.go:27:	"github.com/realvnc-labs/rport/server/caddy"
+./server/chconfig/config.go:29:	"github.com/realvnc-labs/rport/share/files"
+./server/chconfig/config.go:35:	"github.com/realvnc-labs/rport/server/api/message"
+./server/chconfig/config.go:36:	auditlog "github.com/realvnc-labs/rport/server/auditlog/config"
+./server/chconfig/config.go:37:	"github.com/realvnc-labs/rport/server/bearer"
+./server/chconfig/config.go:38:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/chconfig/config.go:39:	"github.com/realvnc-labs/rport/server/ports"
+./server/chconfig/config.go:40:	chshare "github.com/realvnc-labs/rport/share"
+./server/chconfig/config.go:41:	"github.com/realvnc-labs/rport/share/email"
+./server/chconfig/config.go:42:	"github.com/realvnc-labs/rport/share/logger"
+./server/chconfig/config_test.go:7:	"github.com/realvnc-labs/rport/server/api/message"
+./server/chconfig/config_test.go:8:	"github.com/realvnc-labs/rport/server/caddy"
+./server/chconfig/config_test.go:9:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/chconfig/config_test.go:10:	"github.com/realvnc-labs/rport/share/logger"
+./server/chconfig/config_test.go:46:						CertFile: "../../testdata/certs/tunnels.rport.test.crt",
+./server/chconfig/config_test.go:47:						KeyFile:  "../../testdata/certs/tunnels.rport.test.key",
+./server/chconfig/config_test.go:93:						Host:       "tunnel.rport.example.com",
+./server/chconfig/config_test.go:135:				Name: "/var/lib/rport/rport.db",
+./server/chconfig/config_test.go:138:			ExpectedDSN:    "/var/lib/rport/rport.db",
+./server/chconfig/config_test.go:304:					DocRoot: "/var/lib/rport/",
+./server/chconfig/config_test.go:411:					CertFile: "/var/lib/rport/server.crt",
+./server/chconfig/config_test.go:424:					KeyFile:  "/var/lib/rport/server.key",
+./server/chconfig/config_test.go:435:					CertFile:   "/var/lib/rport/server.crt",
+./server/chconfig/config_test.go:436:					KeyFile:    "/var/lib/rport/server.key",
+./server/chconfig/config_test.go:438:					BaseURL:    "https://rport.example.com",
+./server/chconfig/config_test.go:539:					BaseURL:            "https://rport.example.com",
+./server/api_handler_plus.go:6:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_handler_plus.go:7:	"github.com/realvnc-labs/rport/plus/capabilities/status"
+./server/api_handler_plus.go:8:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_plus.go:12:// and sends it to the rport-plus plugin to be exchanged for valid access token and then username.
+./server/api_handler_plus.go:13:// The username can then be used to create a user (if required) and obtain a rport bearer token
+./server/api_handler_plus.go:47:	// get an rport-plus bearer token.
+./server/api_handler_plus.go:98:	// get an rport JWT bearer token.
+./server/api_middleware.go:12:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/api_middleware.go:13:	"github.com/realvnc-labs/rport/server/api"
+./server/api_middleware.go:14:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_middleware.go:15:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_middleware.go:16:	"github.com/realvnc-labs/rport/server/bearer"
+./server/api_middleware.go:17:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/api_middleware.go:18:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_middleware.go:19:	"github.com/realvnc-labs/rport/share/enums"
+./server/api_middleware.go:20:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_clients.go:13:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_clients.go:14:	apierrors "github.com/realvnc-labs/rport/server/api/errors"
+./server/api_handler_clients.go:15:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_handler_clients.go:16:	"github.com/realvnc-labs/rport/server/clients"
+./server/api_handler_clients.go:17:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/api_handler_clients.go:18:	"github.com/realvnc-labs/rport/server/clients/clienttunnel"
+./server/api_handler_clients.go:19:	"github.com/realvnc-labs/rport/server/ports"
+./server/api_handler_clients.go:20:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_clients.go:21:	"github.com/realvnc-labs/rport/server/validation"
+./server/api_handler_clients.go:22:	"github.com/realvnc-labs/rport/share/comm"
+./server/api_handler_clients.go:23:	"github.com/realvnc-labs/rport/share/models"
+./server/api_handler_clients.go:24:	"github.com/realvnc-labs/rport/share/query"
+./server/api_handler_clients.go:448:// TODO: remove this check, do it in client srv in startClientTunnels when https://github.com/realvnc-labs/rport/pull/252 will be in master.
+./server/api_handler_monitoring_test.go:12:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_handler_monitoring_test.go:13:	"github.com/realvnc-labs/rport/server/clients"
+./server/api_handler_monitoring_test.go:14:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/api_handler_monitoring_test.go:15:	"github.com/realvnc-labs/rport/server/monitoring"
+./server/api_handler_monitoring_test.go:16:	"github.com/realvnc-labs/rport/share/comm"
+./server/api_handler_monitoring_test.go:17:	"github.com/realvnc-labs/rport/share/test"
+./server/api_handler_logout.go:7:	"github.com/realvnc-labs/rport/server/bearer"
+./server/test/jb/multijob_builder.go:9:	"github.com/realvnc-labs/rport/share/models"
+./server/test/jb/job_builder.go:18:	"github.com/realvnc-labs/rport/share/models"
+./server/test/jb/job_builder.go:19:	"github.com/realvnc-labs/rport/share/random"
+./server/client_listener_test.go:13:	"github.com/realvnc-labs/rport/share/logger"
+./server/client_listener_test.go:14:	"github.com/realvnc-labs/rport/share/models"
+./server/client_listener_test.go:15:	"github.com/realvnc-labs/rport/share/ptr"
+./server/client_listener_test.go:16:	"github.com/realvnc-labs/rport/share/ws"
+./server/client_status_check_test.go:14:	"github.com/realvnc-labs/rport/server/clients"
+./server/client_status_check_test.go:15:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/client_status_check_test.go:16:	"github.com/realvnc-labs/rport/share/comm"
+./server/client_status_check_test.go:17:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_me_test.go:13:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_me_test.go:14:	"github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_me_test.go:15:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/api_handler_me_test.go:16:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_parser.go:8:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/plus.go:8:	rportplus "github.com/realvnc-labs/rport/plus"
+./server/plus.go:9:	alertingcap "github.com/realvnc-labs/rport/plus/capabilities/alerting"
+./server/plus.go:10:	"github.com/realvnc-labs/rport/plus/capabilities/extendedpermission"
+./server/plus.go:11:	licensecap "github.com/realvnc-labs/rport/plus/capabilities/license"
+./server/plus.go:12:	"github.com/realvnc-labs/rport/plus/capabilities/oauth"
+./server/plus.go:13:	"github.com/realvnc-labs/rport/plus/capabilities/status"
+./server/plus.go:14:	"github.com/realvnc-labs/rport/plus/license"
+./server/plus.go:15:	"github.com/realvnc-labs/rport/server/chconfig"
+./server/plus.go:16:	"github.com/realvnc-labs/rport/share/files"
+./server/plus.go:17:	"github.com/realvnc-labs/rport/share/logger"
+./server/plus.go:21:	ErrPlusNotEnabled           = errors.New("rport-plus not enabled")
+./server/plus.go:22:	ErrPlusLicenseNotConfigured = errors.New("rport-plus license not configured")
+./server/plus.go:28:	logger := logger.NewLogger("rport-plus", cfg.Logging.LogOutput, cfg.Logging.LogLevel)
+./server/plus.go:55:// RegisterPluginCapabilitities registers the rport-plus additional capabilities.
+./server/api_handler_me.go:11:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_me.go:12:	"github.com/realvnc-labs/rport/server/api/authorization"
+./server/api_handler_me.go:13:	users "github.com/realvnc-labs/rport/server/api/users"
+./server/api_handler_me.go:14:	"github.com/realvnc-labs/rport/server/auditlog"
+./server/api_handler_me.go:15:	"github.com/realvnc-labs/rport/server/routes"
+./server/api_handler_me.go:16:	chshare "github.com/realvnc-labs/rport/share"
+./server/api_handler_me.go:17:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_handler_me.go:18:	"github.com/realvnc-labs/rport/share/ptr"
+./server/api_handler_me.go:19:	"github.com/realvnc-labs/rport/share/random"
+./server/api_handler_clienttags.go:7:	"github.com/realvnc-labs/rport/server/api"
+./server/api_handler_clienttags.go:8:	"github.com/realvnc-labs/rport/share/query"
+./server/acme/acme_test.go:10:	"github.com/realvnc-labs/rport/share/logger"
+./server/acme/acme.go:15:	"github.com/realvnc-labs/rport/share/logger"
+./server/api_helper_jobs.go:10:	"github.com/realvnc-labs/rport/server/api/jobs"
+./server/api_helper_jobs.go:11:	"github.com/realvnc-labs/rport/server/clients/clientdata"
+./server/api_helper_jobs.go:12:	"github.com/realvnc-labs/rport/share/comm"
+./server/api_helper_jobs.go:13:	"github.com/realvnc-labs/rport/share/models"
+./server/api_helper_jobs.go:14:	"github.com/realvnc-labs/rport/share/query"
+./server/api_helper_jobs.go:15:	"github.com/realvnc-labs/rport/share/random"
+./server/api_helper_jobs.go:16:	"github.com/realvnc-labs/rport/share/ws"
+./server/script/manager_test.go:16:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/script/manager_test.go:17:	chshare "github.com/realvnc-labs/rport/share/logger"
+./server/script/manager_test.go:18:	"github.com/realvnc-labs/rport/share/query"
+./server/script/validate.go:6:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./server/script/sqlite_test.go:8:	"github.com/realvnc-labs/rport/db/migration/library"
+./server/script/sqlite_test.go:9:	"github.com/realvnc-labs/rport/db/sqlite"
+./server/script/sqlite_test.go:10:	"github.com/realvnc-labs/rport/share/ptr"
+./server/script/sqlite_test.go:11:	"github.com/realvnc-labs/rport/share/query"
+./server/script/sqlite_test.go:18:	"github.com/realvnc-labs/rport/share/test"
+./server/script/sqlite.go:9:	"github.com/realvnc-labs/rport/share/random"
+./server/script/sqlite.go:11:	"github.com/realvnc-labs/rport/share/query"
+./server/script/model.go:6:	"github.com/realvnc-labs/rport/share/types"
+./server/script/manager.go:10:	"github.com/realvnc-labs/rport/share/logger"
+./server/script/manager.go:11:	"github.com/realvnc-labs/rport/share/query"
+./server/script/manager.go:12:	"github.com/realvnc-labs/rport/share/types"
+./server/script/manager.go:14:	errors2 "github.com/realvnc-labs/rport/server/api/errors"
+./api-doc/openapi/paths/oauth_login_device.yaml:9:    more information, see [Rport Plus](https://plus.rport.io/auth/oauth-introduction/).
+./api-doc/openapi/paths/clients-auth_{client_auth_id}.yaml:4:  summary: Get rport client authentication credentials. Require admin access
+./api-doc/openapi/paths/clients-auth_{client_auth_id}.yaml:35:  summary: Delete rport client authentication credentials. Require admin access
+./api-doc/openapi/paths/clients_{client_id}_tunnels.yaml:16:        local refers to the local port of the rport server to use for a new
+./api-doc/openapi/paths/oauth_login.yaml:9:    more information, see [Rport Plus](https://plus.rport.io/auth/oauth-introduction/).
+./api-doc/openapi/paths/commands.yaml:71:  summary: Execute a command on multiple rport clients
+./api-doc/openapi/paths/commands.yaml:74:    NOTE: if command limitation is enabled by an rport client then a full path
+./api-doc/openapi/paths/commands.yaml:76:    https://oss.rport.io/docs/no06-command-execution.html for more details
+./api-doc/openapi/paths/commands.yaml:78:    description: properties and remote command to execute by rport clients
+./api-doc/openapi/paths/commands.yaml:87:                remote command to execute by rport clients. NOTE: if command
+./api-doc/openapi/paths/commands.yaml:88:                limitation is enabled by an rport client then a full path
+./api-doc/openapi/paths/commands.yaml:90:                https://oss.rport.io/docs/no06-command-execution.html for more
+./api-doc/openapi/paths/clients_{client_id}_scripts.yaml:4:  summary: Execute a script by a rport client.
+./api-doc/openapi/paths/clients_{client_id}_scripts.yaml:7:    Rport server will copy script contents to a temp folder on an rport client.
+./api-doc/openapi/paths/clients_{client_id}_scripts.yaml:10:     NOTE: if command limitation is enabled by an rport client then it should allow execution commands like sh script.sh or cmd script.bat or powershell -executionpolicy bypass -file script.ps1.
+./api-doc/openapi/paths/clients_{client_id}_scripts.yaml:11:     See https://oss.rport.io/docs/no06-command-execution.html#securing-your-environment for more details
+./api-doc/openapi/paths/clients_{client_id}_scripts.yaml:21:      script to execute by the rport client, the format depends on the client's
+./api-doc/openapi/paths/clients_{client_id}_scripts.yaml:38:                 For tacoscript interpreter you should install tacoscript binary from here: https://github.com/realvnc-labs/tacoscript#installation. It should also be available in the system path.
+./api-doc/openapi/paths/clients_{client_id}_scripts.yaml:39:                 Additionally, you can use interpreter aliases or full absolute paths to an interpreter of your choice (see https://oss.rport.io/docs/no14-scripts.html#scripts-execution for details).
+./api-doc/openapi/paths/clients-auth.yaml:5:    Return all rport clients authentication credentials. 
+./api-doc/openapi/paths/clients-auth.yaml:61:  summary: Add new rport client authentication credentials. Require admin access
+./api-doc/openapi/paths/status.yaml:4:  summary: Get information about rport server
+./api-doc/openapi/paths/scripts.yaml:4:  summary: Execute a script on multiple rport clients
+./api-doc/openapi/paths/scripts.yaml:10:    description: properties and remote command to execute by rport clients
+./api-doc/openapi/paths/ws_scripts.yaml:4:  summary: Web Socket Connection to execute scripts on rport client(s)
+./api-doc/openapi/paths/ws_scripts.yaml:10:    rport client(s).
+./api-doc/openapi/paths/ws_scripts.yaml:31:     7. As soon as the script finishes a final result from each rport client is sent with JSON message `Job`(see in 'Models').
+./api-doc/openapi/paths/ws_scripts.yaml:33:     It can contain a non-empty 'error' field if server wasn't able to send the command to the rport client.
+./api-doc/openapi/paths/ws_scripts.yaml:34:     Number of final outbound messages is expected to be as many as rport clients. Or less if it's not a concurrent mode and 'abort_on_error' is turned on.
+./api-doc/openapi/paths/ws_scripts.yaml:35:     8. As soon as all rport clients send back the result - the connection is closed by server.
+./api-doc/openapi/paths/ws_commands.yaml:4:  summary: Web Socket Connection to execute a remote command on rport client(s)
+./api-doc/openapi/paths/ws_commands.yaml:10:    on rport client(s).
+./api-doc/openapi/paths/ws_commands.yaml:28:     5. Server sends a given command to rport client(s) to execute.
+./api-doc/openapi/paths/ws_commands.yaml:30:     7. As soon as the command finishes a final result from each rport client is sent with JSON message `Job`(see in 'Models').
+./api-doc/openapi/paths/ws_commands.yaml:32:     It can contain a non-empty 'error' field if server wasn't able to send the command to the rport client.
+./api-doc/openapi/paths/ws_commands.yaml:33:     Number of final outbound messages is expected to be as many as rport clients. Or less if it's not a concurrent mode and 'abort_on_error' is turned on.
+./api-doc/openapi/paths/ws_commands.yaml:34:     8. As soon as all rport clients send back the result - the connection is closed by server.
+./api-doc/openapi/paths/files.yaml:8:    * Files are stored on the rport server in a temporary location.
+./api-doc/openapi/paths/files.yaml:44:                If true, rport client will overwrite destination file if it
+./api-doc/openapi/paths/files.yaml:50:                If true and the destination file exists, rport client will
+./api-doc/openapi/paths/files.yaml:53:                 of the existing file with the provided values and if they don't match, rport client will execute chmod/chown operations on the destination path. 
+./api-doc/openapi/paths/files.yaml:61:                 If file exists (and sync is true), rport client will run chmod operation with the provided file mode.
+./api-doc/openapi/paths/files.yaml:67:                 The uploaded file will be created with the default owner in a temp folder. If `user` is not empty, rport client will perform chown operation on the temp file. 
+./api-doc/openapi/paths/files.yaml:69:                 Since changing owner of a file requires sudo rights, the rport client user should have the necessary permissions to chown and move file to the target location.
+./api-doc/openapi/paths/files.yaml:75:                 The uploaded file will be created with the default group in a temp folder. Then rport client will chown the temp file with the provided group name. 
+./api-doc/openapi/paths/files.yaml:77:                 Since changing group of a file requires sudo rights, the rport client user should have the necessary permissions to chown and move file to the target location.
+./api-doc/openapi/paths/clients_{client_id}_commands.yaml:88:  summary: Execute a command by the rport client
+./api-doc/openapi/paths/clients_{client_id}_commands.yaml:91:    NOTE: if command limitation is enabled by an rport client then a full path
+./api-doc/openapi/paths/clients_{client_id}_commands.yaml:93:    https://oss.rport.io/docs/no06-command-execution.html for more details
+./api-doc/openapi/paths/clients_{client_id}_commands.yaml:102:    description: remote command to execute by the rport client
+./api-doc/openapi/paths/clients_{client_id}_commands.yaml:111:                remote command to execute by the rport client. NOTE: if command
+./api-doc/openapi/paths/clients_{client_id}_commands.yaml:112:                limitation is enabled by an rport client then a full path
+./api-doc/openapi/paths/clients_{client_id}_commands.yaml:114:                https://oss.rport.io/docs/no06-command-execution.html for more
+./api-doc/openapi/paths/tunnels.yaml:4:  summary: Returns all active tunnels of rport clients that current user has access to
+./api-doc/openapi/components/schemas/Tunnel.yaml:16:  rport:
+./api-doc/openapi/components/schemas/AuditLog.yaml:15:    description: Part of the rport that the action belongs to
+./api-doc/openapi/components/schemas/Job.yaml:56:    description: is non-empty when it wasn't able to execute a command on rport client
+./api-doc/openapi/components/schemas/ExtIPAddresses.yaml:4:  [Read More](https://oss.rport.io/advanced/ip-address-determination/)
+./api-doc/openapi/components/schemas/Client.yaml:108:    description: rport client authentication ID that was used to connect to server
+./api-doc/openapi/components/schemas/ExecuteScriptRequest.yaml:5:    description: script to execute by rport client(s) in base64 format.
+./api-doc/openapi/components/schemas/ExecuteScriptRequest.yaml:33:       For tacoscript interpreter you should install tacoscript binary from here: https://github.com/realvnc-labs/tacoscript#installation. 
+./api-doc/openapi/components/schemas/ExecuteScriptRequest.yaml:35:       Additionally, you can use interpreter aliases or full absolute paths to an interpreter of your choice (see https://oss.rport.io/docs/no14-scripts.html#scripts-execution for details).
+./api-doc/openapi/components/schemas/ExecuteScriptRequest.yaml:58:  Request that contains a remote script to execute by rport client(s) and other
+./api-doc/openapi/components/schemas/ClientGroup.yaml:93:      https://oss.rport.io/get-started/client-groups/
+./api-doc/openapi/components/schemas/ClientGroup.yaml:102:      https://oss.rport.io/get-started/permissions-model/
+./api-doc/openapi/components/schemas/ExecuteCmdRequest.yaml:6:      remote command to execute by rport client(s). NOTE: if command limitation
+./api-doc/openapi/components/schemas/ExecuteCmdRequest.yaml:7:      is enabled by an rport client then a full path command can be required to
+./api-doc/openapi/components/schemas/ExecuteCmdRequest.yaml:8:      use. See https://oss.rport.io/docs/no06-command-execution.html for more
+./api-doc/openapi/components/schemas/ExecuteCmdRequest.yaml:48:  Request that contains a remote command to execute by rport client(s) and other
+./api-doc/openapi/components/schemas/UserGet.yaml:21:      [read more](https://oss.rport.io/docs/no02-api-auth.html#database)
+./api-doc/openapi/components/schemas/UserGet.yaml:54:      [Read more](https://plus.rport.io/extended-permissions/ext-permissions-introduction/)
+./api-doc/openapi/components/schemas/TotP.yaml:10:      rport account in an Authenticator app
+./api-doc/openapi/openapi.yaml:10:    url: https://raw.githubusercontent.com/realvnc-labs/rport/master/LICENSE
+./api-doc/openapi/openapi.yaml:20:      For more details https://oss.rport.io/docs/no02-api-auth.html
+./api-doc/openapi/openapi.yaml:23:      For more details https://plus.rport.io/auth/oauth-introduction/
+./api-doc/openapi/openapi.yaml:25:    description: For more details https://plus.rport.io/auth/oauth-introduction/
+./api-doc/openapi/openapi.yaml:29:    description: For more details https://oss.rport.io/docs/no09-managing-tunnels.html
+./api-doc/openapi/openapi.yaml:31:    description: For more details https://oss.rport.io/docs/no04-client-groups.html
+./api-doc/openapi/openapi.yaml:33:    description: For more details https://oss.rport.io/docs/no03-client-auth.html
+./api-doc/openapi/openapi.yaml:35:    description: For more details https://oss.rport.io/docs/no06-command-execution.html
+./api-doc/openapi/openapi.yaml:37:    description: For more details https://oss.rport.io/docs/no12-user.html
+./api-doc/openapi/openapi.yaml:40:      For more details https://plus.rport.io/auth/oauth-introduction/
+./cmd/rportd/usercli/usercli_test.go:9:	"github.com/realvnc-labs/rport/share/enums"
+./cmd/rportd/usercli/user_service.go:8:	"github.com/realvnc-labs/rport/server/api/users"
+./cmd/rportd/usercli/user_service.go:9:	"github.com/realvnc-labs/rport/server/chconfig"
+./cmd/rportd/usercli/user_service.go:10:	"github.com/realvnc-labs/rport/share/enums"
+./cmd/rportd/main.go:16:	"github.com/realvnc-labs/rport/cmd/rportd/servicemanagement"
+./cmd/rportd/main.go:17:	"github.com/realvnc-labs/rport/share/logger"
+./cmd/rportd/main.go:23:	chserver "github.com/realvnc-labs/rport/server"
+./cmd/rportd/main.go:24:	"github.com/realvnc-labs/rport/server/api/message"
+./cmd/rportd/main.go:25:	auditlog "github.com/realvnc-labs/rport/server/auditlog/config"
+./cmd/rportd/main.go:26:	"github.com/realvnc-labs/rport/server/chconfig"
+./cmd/rportd/main.go:27:	chshare "github.com/realvnc-labs/rport/share"
+./cmd/rportd/main.go:28:	"github.com/realvnc-labs/rport/share/files"
+./cmd/rportd/main.go:49:	DefaultPairingURL                       = "https://pairing.rport.io"
+./cmd/rportd/main.go:76:    ./rportd -c /etc/rport/rportd.conf
+./cmd/rportd/main.go:85:    This is where the rport clients connect to.
+./cmd/rportd/main.go:107:    This is for authentication of the rport tunnel clients.
+./cmd/rportd/main.go:190:    Ideally this directory is the homedir of the rport user and has been created along with the user.
+./cmd/rportd/main.go:191:    Example: useradd -r -d /var/lib/rportd -m -s /bin/false -U -c "System user for rport client and server" rport
+./cmd/rportd/main.go:212:    --max-request-bytes-client, An optional arg to define a limit for data that can be sent by rport clients.
+./cmd/rportd/main.go:215:    --allow-root, An optional arg to allow running rportd as root. There is no technical requirement to run the rport
+./cmd/rportd/main.go:221:    --service-user, An optional arg specifying user to run rportd service under. Only on linux. Defaults to rport.
+./cmd/rportd/main.go:323:		svcUser = lFlags.String("service-user", "rport", "")
+./cmd/rportd/main.go:378:	viperCfg.SetDefault("notifications.notification_script_dir", "/usr/local/lib/rport/notification_scripts")
+./cmd/rportd/main.go:539:		cpuprof, err := os.Create("/var/lib/rport/cpu.rportd.prof")
+./cmd/rportd/main.go:582:	memf, err := os.Create("/var/lib/rport/mem.rportd.prof")
+./cmd/rportd/user.go:9:	"github.com/realvnc-labs/rport/cmd/rportd/usercli"
+./cmd/rportd/user.go:10:	"github.com/realvnc-labs/rport/share/enums"
+./cmd/rportd/user.go:11:	"github.com/realvnc-labs/rport/share/logger"
+./cmd/rportd/servicemanagement/service.go:10:	chserver "github.com/realvnc-labs/rport/server"
+./cmd/rportd/servicemanagement/service.go:11:	chshare "github.com/realvnc-labs/rport/share"
+./cmd/rport/main.go:16:	"github.com/realvnc-labs/rport/cmd/rport/servicemanagement"
+./cmd/rport/main.go:21:	"github.com/realvnc-labs/rport/cmd/rport/cli"
+./cmd/rport/main.go:22:	"github.com/realvnc-labs/rport/share/files"
+./cmd/rport/main.go:24:	chclient "github.com/realvnc-labs/rport/client"
+./cmd/rport/main.go:25:	chshare "github.com/realvnc-labs/rport/share"
+./cmd/rport/main.go:73:		if err := runClient(pFlags); err != nil { // app run as rport client
+./cmd/rport/versioninfo.json:12:    "FileDescription": "rport windows client",
+./cmd/rport/versioninfo.json:14:    "InternalName": "rport.exe",
+./cmd/rport/versioninfo.json:19:    "ProductName": "rport",
+./cmd/rport/servicemanagement/service.go:10:	chclient "github.com/realvnc-labs/rport/client"
+./cmd/rport/servicemanagement/service.go:11:	chshare "github.com/realvnc-labs/rport/share"
+./cmd/rport/servicemanagement/service.go:15:	Name:        "rport",
+./cmd/rport/cli/config.go:12:	"github.com/realvnc-labs/rport/share/models"
+./cmd/rport/cli/config.go:14:	chclient "github.com/realvnc-labs/rport/client"
+./cmd/rport/cli/config.go:15:	chshare "github.com/realvnc-labs/rport/share"
+./cmd/rport/cli/config.go:16:	"github.com/realvnc-labs/rport/share/clientconfig"
+./cmd/rport/cli/config.go:73:		viperCfg.SetConfigName("rport.conf")
+./cmd/rport/cli/params_init.go:7:	chclient "github.com/realvnc-labs/rport/client"
+./cmd/rport/cli/params_init.go:66:	pFlags.String("service-user", "rport", "")
+./cmd/rport/cli/params_init.go:68:	// needed only when run as rport client
+./cmd/rport/cli/help_mesg.go:4:  Usage: rport [options] [<server> [remote] [remote] [remote] ...]
+./cmd/rport/cli/help_mesg.go:23:    ./rport <SERVER>:<PORT> 2222:127.0.0.1:22
+./cmd/rport/cli/help_mesg.go:26:    ./rport <SERVER>:<PORT> 3000
+./cmd/rport/cli/help_mesg.go:29:    ./rport <SERVER>:<PORT> example.com:3000
+./cmd/rport/cli/help_mesg.go:33:    ./rport <SERVER>:<PORT> 3000:google.com:80
+./cmd/rport/cli/help_mesg.go:37:    ./rport <SERVER>:<PORT> 192.168.0.5:3000:google.com:80
+./cmd/rport/cli/help_mesg.go:42:    ./rport "[2a01:4f9:c010:b278::1]:9999" 3389
+./cmd/rport/cli/help_mesg.go:46:    ./rport --scheme http --enable-reverse-proxy <SERVER>:<PORT> 8080
+./cmd/rport/cli/help_mesg.go:49:    ./rport -c /etc/rport/rport.conf
+./cmd/rport/cli/help_mesg.go:78:    used to reach the rport server. Authentication can be specified
+./cmd/rport/cli/help_mesg.go:89:    --use-system-id, By default rport reads /etc/machine-id (Linux) or the ComputerSystemProduct UUID (Windows)
+./cmd/rport/cli/help_mesg.go:98:    --use-hostname, By default rport reads the local hostname to identify the system in a human-readable way.
+./cmd/rport/cli/help_mesg.go:107:    --allow-root, An optional arg to allow running rport as root. There is no technical requirement to run the rport
+./cmd/rport/cli/help_mesg.go:110:    --service, Manages rport running as a service. Possible commands are "install", "uninstall", "start" and "stop".
+./cmd/rport/cli/help_mesg.go:113:    --service-user, An optional arg specifying user to run rport service under. Only on linux. Defaults to rport.
+./cmd/rport/cli/help_mesg.go:126:    Defaults: /var/lib/rport (unix) or C:\Program Files\rport (windows)
+./cmd/rport/cli/help_mesg.go:132:    --updates-interval, How often after the rport client has started pending updates are summarized.
+./cmd/rport/cli/help_mesg.go:162:    Note: --scheme refers to the local protocol. The rport server will always use https for the proxy.
+./cmd/rport/cli/help_mesg.go:165:    By default the FQDN of the rport server is sent.
+./cmd/rport/cli/help_mesg.go:169:    MonitoringConfig file should be in TOML format. You can find an example "rport.example.conf" in the release archive.
+./cmd/rport/cli/help_mesg.go:180:    The rport process is listening for:

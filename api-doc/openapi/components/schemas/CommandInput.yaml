@@ -1,0 +1,16 @@
+type: object
+properties:
+  name:
+    type: string
+    description: '[required] User-friendly name of a commend'
+  script:
+    type: string
+    description: '[required] text of the command'
+  tags:
+    type: array
+    description: List of tags for the script
+    items:
+      type: string
+  timeout_sec:
+    type: integer
+    description: Timout of the command in seconds

@@ -1,0 +1,61 @@
+type: object
+properties:
+  username:
+    type: string
+    description: Username
+  groups:
+    type: array
+    description: List of groups to which the current user belongs
+    items:
+      type: string
+  two_fa_send_to:
+    type: string
+    description: >-
+      Holds either the email or the pushover token of the user. It's used to
+      deliver 2FA token to user when 2FA is enabled
+  group_permissions_enabled:
+    type: boolean
+    description: | 
+      Are group permissions enabled. 
+      Requires a database for the user authentication and a `group_details` table.
+      [read more](https://oss.riport.io/docs/no02-api-auth.html#database)
+  effective_user_permissions:
+      type: object
+      description: The effective user right inherited from the group permissions
+      properties:
+        commands:
+          type: boolean
+          description: Is user allowed to execute commands
+        monitoring:
+          type: boolean
+          description: Is user allowed to read monitoring data
+        scheduler:
+          type: boolean
+          description: Is user allowed to create scheduled tasks
+        scripts:
+          type: boolean
+          description: Is user allowed to execute scripts
+        tunnels:
+          type: boolean
+          description: Is user allowed to create tunnels
+        uploads:
+          type: boolean
+          description: Is user allowed to upload files
+        vault:
+          type: boolean
+          description: Is user allowed to access the vault
+        auditlog:
+          type: boolean
+          description: Is user allowed to access the auditlog
+  effective_extended_permissions:
+    type: object
+    description: |
+      The effective extended user permissions inherited from the extended group permissions.
+      [Read more](https://plus.riport.io/extended-permissions/ext-permissions-introduction/)
+    properties:
+      tunnels_restricted:
+        type: object
+        description: Extended permissions for creating tunnels
+      commands_restricted:
+        type: object
+        description: Extended permissions for executing commands

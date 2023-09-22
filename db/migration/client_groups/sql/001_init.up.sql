@@ -1,0 +1,5 @@
+CREATE TABLE client_groups (
+    id TEXT PRIMARY KEY NOT NULL,
+	description TEXT NOT NULL,
+	params TEXT NOT NULL
+) WITHOUT ROWID;
